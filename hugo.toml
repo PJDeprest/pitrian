@@ -1,0 +1,91 @@
+baseURL = 'https://pjdeprest.github.io/pitrian/'
+languageCode = 'en'
+title = 'Pitrian'
+defaultContentLanguage = 'en'
+
+[languages]
+  [languages.en]
+    languageName = 'English'
+    weight = 1
+    contentDir = 'content/en'
+    [languages.en.params]
+      description = 'Belgian full-stack software consultancy'
+    
+    [[languages.en.menu.main]]
+      identifier = 'home'
+      name = 'Home'
+      url = '/'
+      weight = 1
+    
+    [[languages.en.menu.main]]
+      identifier = 'about'
+      name = 'About'
+      url = '/about/'
+      weight = 2
+    
+    [[languages.en.menu.main]]
+      identifier = 'services'
+      name = 'Services'
+      url = '/services/'
+      weight = 3
+    
+    [[languages.en.menu.main]]
+      identifier = 'work'
+      name = 'Work'
+      url = '/work/'
+      weight = 4
+    
+    [[languages.en.menu.main]]
+      identifier = 'contact'
+      name = 'Contact'
+      url = '/contact/'
+      weight = 5
+  
+  [languages.nl]
+    languageName = 'Nederlands'
+    weight = 2
+    contentDir = 'content/nl'
+    [languages.nl.params]
+      description = 'Belgisch full-stack software consultancy'
+    
+    [[languages.nl.menu.main]]
+      identifier = 'home'
+      name = 'Home'
+      url = '/'
+      weight = 1
+    
+    [[languages.nl.menu.main]]
+      identifier = 'about'
+      name = 'Over'
+      url = '/about/'
+      weight = 2
+    
+    [[languages.nl.menu.main]]
+      identifier = 'services'
+      name = 'Diensten'
+      url = '/services/'
+      weight = 3
+    
+    [[languages.nl.menu.main]]
+      identifier = 'work'
+      name = 'Werk'
+      url = '/work/'
+      weight = 4
+    
+    [[languages.nl.menu.main]]
+      identifier = 'contact'
+      name = 'Contact'
+      url = '/contact/'
+      weight = 5
+
+[params]
+  author = 'Pitrian'
+
+[outputs]
+  home = ['HTML']
+  page = ['HTML']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

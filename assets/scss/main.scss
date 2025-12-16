@@ -1,0 +1,234 @@
+// Brutalist design with light and dark mode
+
+:root {
+  --bg: #ffffff;
+  --fg: #000000;
+  --border: #000000;
+  --link: #000000;
+  --link-hover-bg: #000000;
+  --link-hover-fg: #ffffff;
+}
+
+[data-theme="dark"] {
+  --bg: #000000;
+  --fg: #ffffff;
+  --border: #ffffff;
+  --link: #ffffff;
+  --link-hover-bg: #ffffff;
+  --link-hover-fg: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body {
+  font-family: 'Courier New', 'Courier', monospace, -apple-system, BlinkMacSystemFont, 'Segoe UI Mono', 'Roboto Mono', monospace;
+  background: var(--bg);
+  color: var(--fg);
+  transition: none;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+// Header
+header {
+  border-bottom: 2px solid var(--border);
+  padding: 20px 0;
+  margin-bottom: 40px;
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--link);
+    
+    &:hover {
+      background: var(--link-hover-bg);
+      color: var(--link-hover-fg);
+    }
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: var(--link);
+    border: 1px solid var(--border);
+    padding: 5px 10px;
+    
+    &:hover {
+      background: var(--link-hover-bg);
+      color: var(--link-hover-fg);
+    }
+  }
+  
+  .header-controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  #theme-toggle {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--fg);
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1rem;
+    
+    &:hover {
+      background: var(--link-hover-bg);
+      color: var(--link-hover-fg);
+    }
+  }
+  
+  .lang-switcher a {
+    text-decoration: none;
+    color: var(--link);
+    border: 1px solid var(--border);
+    padding: 5px 10px;
+    
+    &:hover {
+      background: var(--link-hover-bg);
+      color: var(--link-hover-fg);
+    }
+  }
+}
+
+// Main content
+main {
+  min-height: calc(100vh - 250px);
+  padding: 20px 0;
+}
+
+article {
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin: 30px 0 20px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 5px;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+    margin: 25px 0 15px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  ul, ol {
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: var(--link);
+    text-decoration: underline;
+    
+    &:hover {
+      background: var(--link-hover-bg);
+      color: var(--link-hover-fg);
+      text-decoration: none;
+    }
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  em {
+    font-style: italic;
+  }
+  
+  code {
+    background: var(--fg);
+    color: var(--bg);
+    padding: 2px 5px;
+    font-family: inherit;
+  }
+  
+  pre {
+    background: var(--fg);
+    color: var(--bg);
+    padding: 15px;
+    overflow-x: auto;
+    margin-bottom: 20px;
+    
+    code {
+      background: none;
+      padding: 0;
+    }
+  }
+  
+  blockquote {
+    border-left: 3px solid var(--border);
+    padding-left: 20px;
+    margin: 20px 0;
+    font-style: italic;
+  }
+}
+
+// Footer
+footer {
+  border-top: 2px solid var(--border);
+  padding: 20px 0;
+  margin-top: 40px;
+  
+  p {
+    text-align: center;
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  header {
+    .header-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+}

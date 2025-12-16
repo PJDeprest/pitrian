@@ -1,0 +1,23 @@
+[home]
+other = "Home"
+
+[about]
+other = "About"
+
+[services]
+other = "Services"
+
+[work]
+other = "Work"
+
+[contact]
+other = "Contact"
+
+[darkMode]
+other = "Dark"
+
+[lightMode]
+other = "Light"
+
+[toggleTheme]
+other = "Toggle theme"

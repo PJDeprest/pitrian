@@ -1,0 +1,23 @@
+[home]
+other = "Home"
+
+[about]
+other = "Over"
+
+[services]
+other = "Diensten"
+
+[work]
+other = "Werk"
+
+[contact]
+other = "Contact"
+
+[darkMode]
+other = "Donker"
+
+[lightMode]
+other = "Licht"
+
+[toggleTheme]
+other = "Wissel thema"
