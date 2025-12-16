@@ -51,8 +51,16 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
-      
+            --baseURL "${{ steps.pages.outputs.base_url }}/" \
+            --verbose
+
+      - name: List build output
+        run: |
+          echo "Contents of public directory:"
+          ls -la public/
+          echo "First level files:"
+          find public -maxdepth 2 -type f
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
