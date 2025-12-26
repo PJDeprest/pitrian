@@ -1,21 +1,27 @@
-// Brutalist design with light and dark mode
+// Brutalist + nature aesthetic with concrete and green accents
 
 :root {
-  --bg: #ffffff;
-  --fg: #000000;
-  --border: #000000;
-  --link: #000000;
-  --link-hover-bg: #000000;
-  --link-hover-fg: #ffffff;
+  --bg: #d4d4d4;
+  --fg: #1a1a1a;
+  --border: #808080;
+  --accent-green: #1a3d2e;
+  --link: #1a3d2e;
+  --link-hover-bg: #1a3d2e;
+  --link-hover-fg: #f0f0f0;
+  --code-bg: #1a1a1a;
+  --code-fg: #f0f0f0;
 }
 
 [data-theme="dark"] {
-  --bg: #000000;
-  --fg: #ffffff;
-  --border: #ffffff;
-  --link: #ffffff;
-  --link-hover-bg: #ffffff;
-  --link-hover-fg: #000000;
+  --bg: #1a1a1a;
+  --fg: #f0f0f0;
+  --border: #808080;
+  --accent-green: #2d5a47;
+  --link: #2d5a47;
+  --link-hover-bg: #2d5a47;
+  --link-hover-fg: #1a1a1a;
+  --code-bg: #0d0d0d;
+  --code-fg: #f0f0f0;
 }
 
 * {
@@ -30,10 +36,11 @@ html {
 }
 
 body {
-  font-family: 'Courier New', 'Courier', monospace, -apple-system, BlinkMacSystemFont, 'Segoe UI Mono', 'Roboto Mono';
+  font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', 'Consolas', 'Monaco', 'Courier New', monospace;
   background: var(--bg);
   color: var(--fg);
   transition: none;
+  font-weight: 400;
 }
 
 .container {
@@ -44,10 +51,10 @@ body {
 
 // Header
 header {
-  border-bottom: 2px solid var(--border);
+  border-bottom: 3px solid var(--accent-green);
   padding: 20px 0;
   margin-bottom: 40px;
-  
+
   .header-content {
     display: flex;
     align-items: center;
@@ -55,13 +62,15 @@ header {
     flex-wrap: wrap;
     gap: 20px;
   }
-  
+
   .logo a {
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 700;
     text-decoration: none;
-    color: var(--link);
-    
+    color: var(--accent-green);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+
     &:hover {
       background: var(--link-hover-bg);
       color: var(--link-hover-fg);
@@ -131,20 +140,25 @@ article {
   h1 {
     font-size: 2rem;
     margin-bottom: 30px;
-    border-bottom: 2px solid var(--border);
+    border-bottom: 3px solid var(--accent-green);
     padding-bottom: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
   }
-  
+
   h2 {
     font-size: 1.5rem;
     margin: 30px 0 20px;
-    border-bottom: 1px solid var(--border);
+    border-bottom: 2px solid var(--border);
     padding-bottom: 5px;
+    font-weight: 700;
   }
-  
+
   h3 {
     font-size: 1.25rem;
     margin: 25px 0 15px;
+    font-weight: 700;
   }
   
   p {
@@ -172,49 +186,53 @@ article {
   }
   
   strong {
-    font-weight: bold;
+    font-weight: 700;
   }
-  
+
   em {
-    font-style: italic;
+    font-weight: 700;
+    text-decoration: underline;
   }
-  
+
   code {
-    background: var(--fg);
-    color: var(--bg);
+    background: var(--code-bg);
+    color: var(--code-fg);
     padding: 2px 5px;
     font-family: inherit;
+    border: 1px solid var(--border);
   }
-  
+
   pre {
-    background: var(--fg);
-    color: var(--bg);
+    background: var(--code-bg);
+    color: var(--code-fg);
     padding: 15px;
     overflow-x: auto;
     margin-bottom: 20px;
-    
+    border: 2px solid var(--border);
+
     code {
       background: none;
       padding: 0;
+      border: none;
     }
   }
-  
+
   blockquote {
-    border-left: 3px solid var(--border);
+    border-left: 4px solid var(--accent-green);
     padding-left: 20px;
     margin: 20px 0;
-    font-style: italic;
   }
 }
 
 // Footer
 footer {
-  border-top: 2px solid var(--border);
+  border-top: 3px solid var(--accent-green);
   padding: 20px 0;
   margin-top: 40px;
-  
+
   p {
     text-align: center;
+    font-size: 0.9rem;
   }
 }
 
