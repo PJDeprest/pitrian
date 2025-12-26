@@ -240,12 +240,48 @@ footer {
 @media (max-width: 768px) {
   header {
     .header-content {
-      flex-direction: column;
-      align-items: flex-start;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      grid-template-areas:
+        "logo controls"
+        "nav nav"
+        "lang lang";
+      gap: 15px;
+      align-items: start;
     }
-    
-    nav ul {
-      flex-direction: column;
+
+    .logo {
+      grid-area: logo;
+      align-self: center;
+    }
+
+    nav {
+      grid-area: nav;
+      width: 100%;
+
+      ul {
+        justify-content: flex-start;
+        gap: 10px;
+      }
+    }
+
+    .header-controls {
+      grid-area: controls;
+      align-self: center;
+
+      #theme-toggle {
+        // Keep only the theme toggle in header-controls on mobile
+      }
+
+      .lang-switcher {
+        display: none; // Hide from controls, will show separately
+      }
+    }
+
+    // Show language switcher in its own row
+    .lang-switcher {
+      grid-area: lang;
+      display: flex !important;
       gap: 10px;
     }
   }
