@@ -10,6 +10,4 @@ Oprichter van Fiscalo. Medeoprichter van TenderWolf.
 
 **Gevestigd in Gent.**
 
-<!-- **Contact:** hello@pitrian.be -->
-
 **Momenteel niet beschikbaar voor nieuwe projecten.**
