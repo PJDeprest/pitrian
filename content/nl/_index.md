@@ -4,7 +4,7 @@ title: "Pitrian"
 
 ## Ik bouw software.
 
-Van probleem tot werkend product. Ik schrijf niet alleen code, ik denk het probleem door, ontwerp de oplossing, en bouw het. Complexe bedrijfslogica, rommelige requirements, strakke integraties: daar doe ik mijn beste werk.
+Van probleem tot werkend product. Complexe domeinen, vakjargon, strakke integraties: daar ben ik op mijn best.
 
 Oprichter van Fiscalo. Medeoprichter van TenderWolf.
 
