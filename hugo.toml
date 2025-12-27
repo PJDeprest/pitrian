@@ -1,4 +1,5 @@
 baseURL = 'https://pjdeprest.github.io/pitrian/'
+canonifyURLs = true
 languageCode = 'en'
 title = 'Pitrian'
 defaultContentLanguage = 'en'
