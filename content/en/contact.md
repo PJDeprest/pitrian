@@ -2,6 +2,7 @@
 title: "Contact"
 ---
 
+<!--
 ## Get In Touch
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -21,3 +22,4 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 ### Availability
 
 Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+-->

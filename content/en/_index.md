@@ -10,6 +10,6 @@ Founder of Fiscalo. Co-founder of TenderWolf.
 
 **Based in Ghent.**
 
-**Contact:** hello@pitrian.be
+<!-- **Contact:** hello@pitrian.be -->
 
 **Currently unavailable for new projects.**
