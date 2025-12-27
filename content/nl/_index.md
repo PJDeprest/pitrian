@@ -6,9 +6,9 @@ title: "Pitrian"
 
 Van probleem tot werkend product. Ik schrijf niet alleen code, ik denk het probleem door, ontwerp de oplossing, en bouw het. Complexe bedrijfslogica, rommelige requirements, strakke integraties: daar doe ik mijn beste werk.
 
-Eerder gebouwd: Fiscalo en TenderWolf.
+Oprichter van Fiscalo. Medeoprichter van TenderWolf.
 
-**Gevestigd in België.**
+**Gevestigd in Gent.**
 
 **Contact:** hello@pitrian.be
 

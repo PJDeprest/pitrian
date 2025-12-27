@@ -6,9 +6,9 @@ title: "Pitrian"
 
 From problem to working product. I don't just write code, I think through the problem, design the solution, and build it. Complex business logic, messy requirements, tight integrations: that's where I do my best work.
 
-Previously built: Fiscalo and TenderWolf.
+Founder of Fiscalo. Co-founder of TenderWolf.
 
-**Based in Belgium.**
+**Based in Ghent.**
 
 **Contact:** hello@pitrian.be
 
