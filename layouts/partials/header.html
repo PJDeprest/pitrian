@@ -2,7 +2,7 @@
   <div class="container">
     <div class="header-content">
       <div class="logo">
-        <a href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a>
+        <a href="{{ "/" | relLangURL }}">{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}</a>
       </div>
       
       <nav>
