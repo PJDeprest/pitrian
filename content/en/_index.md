@@ -2,14 +2,14 @@
 title: "Pitrian"
 ---
 
-## Belgian Full-Stack Software Consultancy
+## I build software.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+From problem to working product. I don't just write code, I think through the problem, design the solution, and build it. Complex business logic, messy requirements, tight integrations: that's where I do my best work.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Previously built: Fiscalo and TenderWolf.
 
-### What We Do
+**Based in Belgium.**
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+**Contact:** hello@pitrian.be
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+**Currently unavailable for new projects.**
