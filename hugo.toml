@@ -1,13 +1,13 @@
 baseURL = 'https://pjdeprest.github.io/pitrian/'
 canonifyURLs = true
-languageCode = 'en'
+languageCode = 'nl'
 title = 'Pitrian'
-defaultContentLanguage = 'en'
+defaultContentLanguage = 'nl'
 
 [languages]
   [languages.en]
     languageName = 'English'
-    weight = 1
+    weight = 2
     contentDir = 'content/en'
     [languages.en.params]
       description = 'Belgian full-stack software consultancy'
@@ -38,7 +38,7 @@ defaultContentLanguage = 'en'
   
   [languages.nl]
     languageName = 'Nederlands'
-    weight = 2
+    weight = 1
     contentDir = 'content/nl'
     [languages.nl.params]
       description = 'Belgisch full-stack software consultancy'
