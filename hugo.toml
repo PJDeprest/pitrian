@@ -11,12 +11,12 @@ defaultContentLanguage = 'en'
     [languages.en.params]
       description = 'Belgian full-stack software consultancy'
     
-    [[languages.en.menu.main]]
-      identifier = 'home'
-      name = 'Home'
-      url = '/'
-      weight = 1
-    
+    # [[languages.en.menu.main]]
+    #   identifier = 'home'
+    #   name = 'Home'
+    #   url = '/'
+    #   weight = 1
+
     [[languages.en.menu.main]]
       identifier = 'about'
       name = 'About'
@@ -48,12 +48,12 @@ defaultContentLanguage = 'en'
     [languages.nl.params]
       description = 'Belgisch full-stack software consultancy'
     
-    [[languages.nl.menu.main]]
-      identifier = 'home'
-      name = 'Home'
-      url = '/'
-      weight = 1
-    
+    # [[languages.nl.menu.main]]
+    #   identifier = 'home'
+    #   name = 'Home'
+    #   url = '/'
+    #   weight = 1
+
     [[languages.nl.menu.main]]
       identifier = 'about'
       name = 'Over'
