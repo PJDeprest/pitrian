@@ -269,10 +269,6 @@ footer {
       grid-area: controls;
       align-self: center;
 
-      #theme-toggle {
-        // Keep only the theme toggle in header-controls on mobile
-      }
-
       .lang-switcher {
         display: none; // Hide from controls, will show separately
       }
