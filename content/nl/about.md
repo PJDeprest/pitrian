@@ -1,25 +1,23 @@
 ---
-title: "Over"
+title: "Pieter-Jan"
 ---
 
-## Over Pitrian
+## Hoe ik werk
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+Ik ben op mijn best bij complexe problemen en projecten die meerdere domeinen overspannen, waar vakjargon begrepen en vertaald moet worden naar technische oplossingen. Ik ontwerp eerst, dan pas implementeer ik. Clean code, beproefde design patterns.
 
-### Ons Verhaal
+Ik ken mijn applicaties door en door.
 
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Ik werk het liefst in kleine, hechte teams die alles zelf aankunnen, of alleen. Geen strikte scheiding tussen frontend, backend, database, operations. Liever korte lijnen en persoonlijk contact dan calls met te veel mensen.
 
-Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+## Achtergrond
 
-### Onze Filosofie
+Ik studeerde economie en internationale betrekkingen aan de UGent. In mijn laatste jaar kwam ik in contact met TenderWolf en begon ik te programmeren. Niet vanuit een informatica-opleiding, maar on the job. Die achtergrond zie ik als een sterkte: ik denk breder dan code alleen.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+Bij TenderWolf begon ik met een klein project binnen een grotere applicatie. Geleidelijk groeide ik naar lead engineer en later aandeelhouder. Tien jaar lang bouwde ik mee aan het aanbestedingsplatform: design, analyse, implementatie, testing, deployment, database, alles.
 
-Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+In 2019 startte ik Fiscalo met enkele vrienden als nevenproject. Tijdens de coronalockdowns kreeg het vleugels. Fiscalo is een loonapplicatie voor Belgische accountants: een vertaling van complexe fiscale wetgeving naar werkbare software.
 
-### Ons Team
+## Gent
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
-
-Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+Ik woon en werk in Gent. De fiets is mijn woon-werkverkeer. Nabijheid en persoonlijk contact zijn voor mij geen luxe, maar hoe ik het liefst werk.
