@@ -24,9 +24,9 @@ defaultContentLanguage = 'en'
       weight = 2
     
     [[languages.en.menu.main]]
-      identifier = 'services'
-      name = 'Services'
-      url = '/services/'
+      identifier = 'technology'
+      name = 'Technology'
+      url = '/technology/'
       weight = 3
     
     [[languages.en.menu.main]]
@@ -61,9 +61,9 @@ defaultContentLanguage = 'en'
       weight = 2
     
     [[languages.nl.menu.main]]
-      identifier = 'services'
-      name = 'Diensten'
-      url = '/services/'
+      identifier = 'technology'
+      name = 'Technologie'
+      url = '/technology/'
       weight = 3
     
     [[languages.nl.menu.main]]
