@@ -8,7 +8,7 @@ I'm at my best with complex problems and projects that span multiple domains, wh
 
 I know my applications inside and out.
 
-I prefer working in small, tight-knit teams that can handle everything themselves, or alone. No strict separation between frontend, backend, database, operations. Short lines and personal contact over calls with too many people.
+I prefer working in small, tight-knit teams that can handle everything themselves, or alone. No strict separation between frontend, backend, database, operations. Direct communication and personal contact instead of calls with too many people.
 
 ## Background
 
