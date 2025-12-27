@@ -2,30 +2,24 @@
 title: "Work"
 ---
 
-## Our Work
+## TenderWolf
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+TenderWolf aggregates governmental tenders from across Europe into one search engine. Thousands of tenders come in daily from Belgium, France, Luxembourg, and the Netherlands, including Belgian municipality decisions that precede formal tenders. The rest of the EU is covered through the European tender platform.
 
-### Project Alpha
+Search is fuzzy and extends into specification documents. Filters are plentiful: location, deadline, procedure, sector, selection criteria, and dozens of other combinations. Results are sorted based on tenders you follow or mark as interesting. For a quick overview: AI summaries of specifications are available.
 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Companies use TenderWolf to find tenders to bid on. Governments use it to find inspiration from similar tenders by other agencies.
 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Technically, the platform runs on scraping cycles that must execute reliably every hour. Tenders arrive in all kinds of formats. An elaborate parsing system with factories assigns the correct process based on file type. The challenge lies in processing that multitude of formats in a structured, maintainable way.
 
-### Project Beta
+**[tenderwolf.com](https://tenderwolf.com)**
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+## Fiscalo
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Fiscalo calculates taxes for self-employed consultants who pay themselves a salary from their own company. The full fiscal situation is taken into account: salary configuration with all its components, social contributions, company tax, personal income tax, pension accrual. The tool shows different scenarios, allowing users to compare and optimize their situation.
 
-### Project Gamma
+The target audience is accountants and self-employed, with an emphasis on accountants. The subject matter is complex.
 
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Technically, the challenge is translating Belgian tax law into maintainable code. The legislation is complex, and the calculations are not always logically structured. The art is keeping that complexity from bleeding into the code.
 
-Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-
-### Project Delta
-
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
-
-Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+**[fiscalo.be](https://fiscalo.be)**

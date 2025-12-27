@@ -2,30 +2,24 @@
 title: "Werk"
 ---
 
-## Ons Werk
+## TenderWolf
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+TenderWolf verzamelt overheidsopdrachten uit heel Europa in één zoekmachine. Dagelijks komen er duizenden opdrachten binnen uit België, Frankrijk, Luxemburg en Nederland, inclusief Belgische gemeentebeslissingen die aan aanbestedingen voorafgaan. De rest van de EU wordt gedekt via het Europese aanbestedingsplatform.
 
-### Project Alpha
+De zoekfunctie is fuzzy en doorzoekt ook specificatiedocumenten. Filters zijn er in overvloed: locatie, deadline, procedure, sector, selectiecriteria, en tientallen andere combinaties. Resultaten worden gesorteerd op basis van opdrachten die je volgt of interessant vindt. Voor wie snel een beeld wil: AI-samenvattingen van specificaties zijn beschikbaar.
 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Bedrijven gebruiken TenderWolf om opdrachten te vinden waarop ze willen inschrijven. Overheden gebruiken het om inspiratie op te doen bij gelijkaardige aanbestedingen van andere instanties.
 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Technisch draait het platform op scrapingcycli die elk uur betrouwbaar moeten draaien. Opdrachten komen binnen in allerlei formaten. Een uitgebreid parsingsysteem met factories wijst het juiste proces toe op basis van bestandstype. De uitdaging zit in het gestructureerd en onderhoudbaar verwerken van die veelheid aan formaten.
 
-### Project Beta
+**[tenderwolf.com](https://tenderwolf.com)**
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+## Fiscalo
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Fiscalo berekent belastingen voor zelfstandige consultants die zichzelf een loon uitbetalen vanuit hun eigen vennootschap. De volledige fiscale situatie wordt meegenomen: loonconfiguratie met alle componenten, sociale bijdragen, vennootschapsbelasting, personenbelasting, pensioenopbouw. De tool toont verschillende scenario's waarmee gebruikers hun situatie kunnen vergelijken en optimaliseren.
 
-### Project Gamma
+De doelgroep zijn accountants en zelfstandigen, met de nadruk op accountants. De materie is complex.
 
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Technisch is de uitdaging het vertalen van Belgische fiscale wetgeving naar onderhoudbare code. Die wetgeving is complex, en de berekeningen zijn niet altijd logisch opgebouwd. De kunst is om die complexiteit niet te laten doorsijpelen in de code.
 
-Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-
-### Project Delta
-
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
-
-Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+**[fiscalo.be](https://fiscalo.be)**
