@@ -35,11 +35,11 @@ defaultContentLanguage = 'en'
       url = '/work/'
       weight = 4
     
-    [[languages.en.menu.main]]
-      identifier = 'contact'
-      name = 'Contact'
-      url = '/contact/'
-      weight = 5
+    # [[languages.en.menu.main]]
+    #   identifier = 'contact'
+    #   name = 'Contact'
+    #   url = '/contact/'
+    #   weight = 5
   
   [languages.nl]
     languageName = 'Nederlands'
@@ -72,11 +72,11 @@ defaultContentLanguage = 'en'
       url = '/work/'
       weight = 4
     
-    [[languages.nl.menu.main]]
-      identifier = 'contact'
-      name = 'Contact'
-      url = '/contact/'
-      weight = 5
+    # [[languages.nl.menu.main]]
+    #   identifier = 'contact'
+    #   name = 'Contact'
+    #   url = '/contact/'
+    #   weight = 5
 
 [params]
   author = 'Pitrian'
