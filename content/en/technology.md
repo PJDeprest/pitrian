@@ -2,33 +2,27 @@
 title: "Technology"
 ---
 
-My daily tools. Not limited to this list, but this is where I'm most at home.
+Technologies I work with. I pick up new ones fast when a project calls for it.
 
 ## My stack
 
-**Backend**
-Java Spring Boot
+**Backend:** Java Spring Boot
 
-**Frontend**
-React, TypeScript, SCSS, Redux
+**Frontend:** React, TypeScript, SCSS, Redux
 
-**Databases**
-PostgreSQL, MySQL
+**Databases:** PostgreSQL, MySQL
 
-**Search**
-Elasticsearch
+**Search:** Elasticsearch
 
-**Infrastructure**
-GCP, Heroku, AWS
+**Infrastructure:** GCP, Heroku, AWS
 
-**DevOps**
-Docker, Terraform, Ansible, GitHub Actions
+**DevOps:** Docker, Terraform, Ansible, GitHub Actions
 
-**Testing**
-Unit tests, integration tests, Cypress
+**Testing:** JUnit 5, Cypress
 
 ## Exploring
 
 Haskell (functional programming)
+Hugo (static site generator)
+Linux (daily driver)
 OpenSCAD (3D printing)
-Linux (Fedora, Arch)
