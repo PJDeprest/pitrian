@@ -2,33 +2,27 @@
 title: "Technologie"
 ---
 
-Mijn dagelijkse werktuigen. Niet gelimiteerd tot deze lijst, maar hier ben ik het meest thuis.
+Technologieën waarmee ik werk. Nieuwe tools leer ik snel bij wanneer nodig.
 
 ## Mijn stack
 
-**Backend**
-Java Spring Boot
+**Backend:** Java Spring Boot
 
-**Frontend**
-React, TypeScript, SCSS, Redux
+**Frontend:** React, TypeScript, SCSS, Redux
 
-**Databases**
-PostgreSQL, MySQL
+**Databases:** PostgreSQL, MySQL
 
-**Search**
-Elasticsearch
+**Search:** Elasticsearch
 
-**Infrastructure**
-GCP, Heroku, AWS
+**Infrastructure:** GCP, Heroku, AWS
 
-**DevOps**
-Docker, Terraform, Ansible, GitHub Actions
+**DevOps:** Docker, Terraform, Ansible, GitHub Actions
 
-**Testing**
-Unit tests, integratietests, Cypress
+**Testing:** JUnit, Cypress
 
 ## Aan het verkennen
 
 Haskell (functioneel programmeren)
+Hugo (statische sitegenerator)
+Linux (daily driver)
 OpenSCAD (3D printing)
-Linux (Fedora, Arch)

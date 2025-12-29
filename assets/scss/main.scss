@@ -189,6 +189,10 @@ article {
     font-weight: 700;
   }
 
+  [data-theme="dark"] & strong {
+    color: var(--accent-green);
+  }
+
   em {
     font-weight: 700;
     text-decoration: underline;
