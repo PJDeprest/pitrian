@@ -18,7 +18,7 @@ Technologies I work with. I pick up new ones fast when a project calls for it.
 
 **DevOps:** Docker, Terraform, Ansible, GitHub Actions
 
-**Testing:** JUnit 5, Cypress
+**Testing:** JUnit, Cypress
 
 ## Exploring
 

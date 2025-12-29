@@ -18,7 +18,7 @@ Technologieën waarmee ik werk. Nieuwe tools leer ik snel bij wanneer nodig.
 
 **DevOps:** Docker, Terraform, Ansible, GitHub Actions
 
-**Testing:** JUnit 5, Cypress
+**Testing:** JUnit, Cypress
 
 ## Aan het verkennen
 
