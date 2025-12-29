@@ -20,4 +20,4 @@ In 2019 I started Fiscalo with a few friends as a side project. During the coron
 
 ## Ghent
 
-I live and work in Ghent. The bike is my commute. Proximity and personal contact are not a luxury for me, but how I prefer to work.
+I live in Ghent and prefer to work within cycling distance. Direct communication, personal contact.
