@@ -20,4 +20,4 @@ In 2019 startte ik Fiscalo met enkele vrienden als nevenproject. Tijdens de coro
 
 ## Gent
 
-Ik woon in Gent en werk het liefst binnen fietsbereik. Korte lijnen, persoonlijk contact.
+Ik woon in Gent en werk het liefst binnen fietsbereik. Directe communicatie, persoonlijk contact.
