@@ -10,7 +10,7 @@ defaultContentLanguage = 'nl'
     weight = 2
     contentDir = 'content/en'
     [languages.en.params]
-      description = 'Belgian full-stack software consultancy'
+      description = 'I build software'
 
     [[languages.en.menu.main]]
       identifier = 'about'
@@ -41,7 +41,7 @@ defaultContentLanguage = 'nl'
     weight = 1
     contentDir = 'content/nl'
     [languages.nl.params]
-      description = 'Belgisch full-stack software consultancy'
+      description = 'Ik bouw software'
 
     [[languages.nl.menu.main]]
       identifier = 'about'
