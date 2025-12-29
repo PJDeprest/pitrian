@@ -6,6 +6,8 @@ Technologieën waarmee ik werk. Nieuwe tools leer ik snel bij wanneer nodig.
 
 ## Mijn stack
 
+**OS:** Linux (Fedora)
+
 **Backend:** Java Spring Boot
 
 **Frontend:** React, TypeScript, SCSS, Redux
@@ -24,5 +26,4 @@ Technologieën waarmee ik werk. Nieuwe tools leer ik snel bij wanneer nodig.
 
 Haskell (functioneel programmeren)
 Hugo (statische sitegenerator)
-Linux (daily driver)
 OpenSCAD (3D printing)

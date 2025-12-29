@@ -6,6 +6,8 @@ Technologies I work with. I pick up new ones fast when a project calls for it.
 
 ## My stack
 
+**OS:** Linux (Fedora)
+
 **Backend:** Java Spring Boot
 
 **Frontend:** React, TypeScript, SCSS, Redux
@@ -24,5 +26,4 @@ Technologies I work with. I pick up new ones fast when a project calls for it.
 
 Haskell (functional programming)
 Hugo (static site generator)
-Linux (daily driver)
 OpenSCAD (3D printing)
