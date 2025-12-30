@@ -4,11 +4,9 @@ title: "Pieter-Jan"
 
 ## Hoe ik werk
 
-Ik ben op mijn best bij complexe problemen en projecten die meerdere domeinen overspannen, waar vakjargon begrepen en vertaald moet worden naar technische oplossingen. Ik ontwerp eerst, dan pas implementeer ik. Clean code, beproefde design patterns.
+Ik ben op mijn best bij complexe problemen en projecten die meerdere domeinen overspannen, waar vakjargon begrepen en vertaald moet worden naar technische oplossingen. Ik ontwerp eerst en implementeer daarna, met beproefde design patterns. Ik zorg ervoor dat ik mijn applicaties door en door ken.
 
-Ik ken mijn applicaties door en door.
-
-Ik werk het liefst in kleine, hechte teams die alles zelf aankunnen, of alleen. Geen strikte scheiding tussen frontend, backend, database, operations. Liever korte lijnen en persoonlijk contact dan calls met te veel mensen.
+Ik werk het liefst in kleine, hechte teams die alles zelf aankunnen. Ik houd niet van strikte scheidingen tussen frontend, backend, database en operations. Liever korte lijnen en persoonlijk contact dan calls met te veel mensen.
 
 ## Achtergrond
 
@@ -20,4 +18,4 @@ In 2019 startte ik Fiscalo met enkele vrienden als nevenproject. Tijdens de coro
 
 ## Gent
 
-Ik woon in Gent en werk het liefst binnen fietsbereik. Directe communicatie, persoonlijk contact.
+Ik woon in Gent en werk het liefst binnen fietsbereik.
