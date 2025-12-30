@@ -4,11 +4,9 @@ title: "Pieter-Jan"
 
 ## How I work
 
-I'm at my best with complex problems and projects that span multiple domains, where specialized jargon needs to be understood and translated into technical solutions. I design first, then implement. Clean code, proven design patterns.
+I thrive on complex problems and projects that span multiple domains, where domain jargon needs to be understood and translated into technical solutions. I design first, then implement, using proven design patterns. I make sure I know my applications inside out.
 
-I know my applications inside and out.
-
-I prefer working in small, tight-knit teams that can handle everything themselves, or alone. No strict separation between frontend, backend, database, operations. Direct communication and personal contact instead of calls with too many people.
+I prefer small, tight-knit teams that can handle everything themselves. No strict boundaries between frontend, backend, database and operations. Direct communication and personal contact over calls with too many people.
 
 ## Background
 
@@ -20,4 +18,4 @@ In 2019 I started Fiscalo with a few friends as a side project. During the coron
 
 ## Ghent
 
-I live in Ghent and prefer to work within cycling distance. Direct communication, personal contact.
+I live in Ghent and prefer to work within cycling distance.
