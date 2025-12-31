@@ -14,7 +14,7 @@ defaultContentLanguage = 'nl'
 
     [[languages.en.menu.main]]
       identifier = 'about'
-      name = 'About'
+      name = 'Pieter-Jan'
       url = '/about/'
       weight = 2
     
@@ -45,7 +45,7 @@ defaultContentLanguage = 'nl'
 
     [[languages.nl.menu.main]]
       identifier = 'about'
-      name = 'Over'
+      name = 'Pieter-Jan'
       url = '/about/'
       weight = 2
     

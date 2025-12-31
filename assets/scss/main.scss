@@ -67,14 +67,11 @@ header {
     font-size: 1.5rem;
     font-weight: 700;
     text-decoration: none;
-    color: var(--accent-green);
+    background: var(--accent-green);
+    color: #f0f0f0;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-
-    &:hover {
-      background: var(--link-hover-bg);
-      color: var(--link-hover-fg);
-    }
+    padding: 5px 10px;
   }
   
   nav ul {
