@@ -3,6 +3,7 @@
 {{- $lang := .Site.Language.Lang -}}
 {{- $isNL := eq $lang "nl" -}}
 {{- $localeLang := cond $isNL "nl-BE" "en-US" -}}
+{{- $alternateLang := cond $isNL "en-US" "nl-BE" -}}
 
 <script type="application/ld+json">
 {
@@ -91,12 +92,12 @@
       "@id": "{{ $baseURL }}#website",
       "url": "{{ $baseURL }}",
       "name": "Pitrian",
-      "description": {{ .Site.Params.description | jsonify }},
+      "description": "{{ .Site.Params.description }}",
       "publisher": {
         "@type": "Person",
         "@id": "{{ $baseURL }}#person"
       },
-      "inLanguage": ["{{ cond $isNL "nl-BE" "en-US" }}", "{{ cond $isNL "en-US" "nl-BE" }}"]
+      "inLanguage": ["{{ $localeLang }}", "{{ $alternateLang }}"]
     }{{ if .IsPage }},
     {
       "@type": "WebPage",
