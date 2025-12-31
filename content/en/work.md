@@ -1,5 +1,6 @@
 ---
 title: "Work"
+description: "Portfolio of software projects: TenderWolf - European tender aggregation platform, and Fiscalo - Belgian payroll tax calculator for accountants and self-employed."
 ---
 
 ## TenderWolf

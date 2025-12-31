@@ -1,5 +1,6 @@
 ---
 title: "Technologie"
+description: "Tech stack en tools: Java Spring Boot, React, TypeScript, PostgreSQL, Elasticsearch, GCP, Docker, Terraform. Nieuwe technologieën leer ik snel bij."
 ---
 
 Technologieën waarmee ik werk. Nieuwe tools leer ik snel bij wanneer nodig.

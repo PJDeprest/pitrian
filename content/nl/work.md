@@ -1,5 +1,6 @@
 ---
 title: "Werk"
+description: "Portfolio van softwareprojecten: TenderWolf - Europees aanbestedingsplatform, en Fiscalo - Belgische loonapplicatie voor accountants en zelfstandigen."
 ---
 
 ## TenderWolf

@@ -1,5 +1,6 @@
 ---
 title: "Technology"
+description: "Tech stack and tools: Java Spring Boot, React, TypeScript, PostgreSQL, Elasticsearch, GCP, Docker, Terraform. Fast learner of new technologies."
 ---
 
 Technologies I work with. I pick up new ones fast when a project calls for it.
