@@ -1,4 +1,4 @@
-baseURL = 'https://pjdeprest.github.io/pitrian/'
+baseURL = 'https://pitrian.be/'
 canonifyURLs = true
 languageCode = 'nl'
 title = 'Pitrian'
