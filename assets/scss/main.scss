@@ -56,7 +56,7 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -66,6 +66,9 @@ header {
   border-bottom: 3px solid var(--accent-green);
   padding: 20px 0;
   margin-bottom: 40px;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
 
   .header-content {
     display: flex;
@@ -274,6 +277,9 @@ footer {
   border-top: 3px solid var(--accent-green);
   padding: 20px 0;
   margin-top: 40px;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
 
   p {
     text-align: center;
