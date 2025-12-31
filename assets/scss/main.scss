@@ -113,8 +113,13 @@ header {
       color: var(--link-hover-fg);
     }
 
-    // Remove persistent focus/active states
-    &:focus {
+    // Keep keyboard focus visible, avoid persistent outline on mouse click
+    &:focus-visible {
+      outline: 2px solid var(--accent-green);
+      outline-offset: 2px;
+    }
+
+    &:focus:not(:focus-visible) {
       outline: none;
     }
 
