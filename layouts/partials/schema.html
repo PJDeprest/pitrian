@@ -1,0 +1,114 @@
+{{- $isHome := .IsHome -}}
+{{- $baseURL := .Site.BaseURL -}}
+{{- $lang := .Site.Language.Lang -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "{{ $baseURL }}#person",
+      "name": "Pieter-Jan Deprest",
+      "alternateName": "Pieter-Jan",
+      "description": {{ if eq $lang "nl" }}"Full-stack softwareconsultant gespecialiseerd in complexe domeinen en strakke integraties"{{ else }}"Full-stack software consultant specializing in complex domains and tight integrations"{{ end }},
+      "url": "{{ $baseURL }}",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": {{ if eq $lang "nl" }}"Gent"{{ else }}"Ghent"{{ end }},
+        "addressCountry": "BE"
+      },
+      "knowsAbout": [
+        "Java Spring Boot",
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "Elasticsearch",
+        "Docker",
+        "Terraform",
+        "Full-stack Development",
+        "Software Architecture"
+      ],
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": {{ if eq $lang "nl" }}"Universiteit Gent"{{ else }}"Ghent University"{{ end }}
+      },
+      "jobTitle": {{ if eq $lang "nl" }}"Softwareconsultant"{{ else }}"Software Consultant"{{ end }},
+      "worksFor": [
+        {
+          "@type": "Organization",
+          "@id": "{{ $baseURL }}#organization"
+        }
+      ],
+      "founder": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "Fiscalo",
+          "url": "https://fiscalo.be",
+          "applicationCategory": "BusinessApplication",
+          "description": {{ if eq $lang "nl" }}"Loonapplicatie voor Belgische accountants"{{ else }}"Payroll application for Belgian accountants"{{ end }}
+        }
+      ],
+      "affiliation": {
+        "@type": "Organization",
+        "name": "TenderWolf",
+        "url": "https://tenderwolf.com",
+        "description": {{ if eq $lang "nl" }}"Europees aanbestedingsplatform"{{ else }}"European tender aggregation platform"{{ end }}
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "{{ $baseURL }}#organization",
+      "name": "Pitrian",
+      "url": "{{ $baseURL }}",
+      "description": {{ if eq $lang "nl" }}"Softwareconsultancy gespecialiseerd in complexe domeinen en strakke integraties"{{ else }}"Software consultancy specializing in complex domains and tight integrations"{{ end }},
+      "founder": {
+        "@type": "Person",
+        "@id": "{{ $baseURL }}#person"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": {{ if eq $lang "nl" }}"Gent"{{ else }}"Ghent"{{ end }},
+        "addressCountry": "BE"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": {{ if eq $lang "nl" }}"België"{{ else }}"Belgium"{{ end }}
+      },
+      "knowsAbout": [
+        "Software Development",
+        "Full-stack Development",
+        "Backend Development",
+        "Frontend Development",
+        "Cloud Infrastructure",
+        "DevOps"
+      ],
+      "email": "contact@pitrian.be"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ $baseURL }}#website",
+      "url": "{{ $baseURL }}",
+      "name": "Pitrian",
+      "description": {{ .Site.Params.description }},
+      "publisher": {
+        "@type": "Person",
+        "@id": "{{ $baseURL }}#person"
+      },
+      "inLanguage": [{{ if eq $lang "nl" }}"nl-BE", "en-US"{{ else }}"en-US", "nl-BE"{{ end }}]
+    }{{ if .IsPage }},
+    {
+      "@type": "WebPage",
+      "@id": "{{ .Permalink }}#webpage",
+      "url": "{{ .Permalink }}",
+      "name": "{{ .Title }}",
+      "description": {{ if .Params.description }}"{{ .Params.description }}"{{ else }}"{{ .Site.Params.description }}"{{ end }},
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "{{ $baseURL }}#website"
+      },
+      "inLanguage": "{{ if eq $lang "nl" }}nl-BE{{ else }}en-US{{ end }}"
+    }{{ end }}
+  ]
+}
+</script>

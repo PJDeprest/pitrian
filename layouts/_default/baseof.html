@@ -25,6 +25,9 @@
 
   {{ $style := resources.Get "scss/main.scss" | resources.ToCSS | resources.Minify }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
+
+  <!-- Schema.org structured data for SEO and AI optimization -->
+  {{ partial "schema.html" . }}
 </head>
 <body>
   {{ partial "header.html" . }}
