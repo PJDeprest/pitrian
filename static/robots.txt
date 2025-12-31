@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pjdeprest.github.io/pitrian/sitemap.xml
