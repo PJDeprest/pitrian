@@ -16,6 +16,6 @@ At TenderWolf I started with a small project within a larger application. Gradua
 
 In 2019 I started Fiscalo with a few friends as a side project. During the corona lockdowns it took off. Fiscalo is a payroll application for Belgian accountants: a translation of complex fiscal legislation into workable software.
 
-## Ghent
+## Location
 
 I live in Ghent and prefer to work within cycling distance.

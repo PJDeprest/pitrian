@@ -16,6 +16,6 @@ Bij TenderWolf begon ik met een klein project binnen een grotere applicatie. Gel
 
 In 2019 startte ik Fiscalo met enkele vrienden als nevenproject. Tijdens de coronalockdowns kreeg het vleugels. Fiscalo is een loonapplicatie voor Belgische accountants: een vertaling van complexe fiscale wetgeving naar werkbare software.
 
-## Gent
+## Locatie 
 
 Ik woon in Gent en werk het liefst binnen fietsbereik.
