@@ -72,6 +72,15 @@ header {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     padding: 5px 10px;
+
+    &:focus-visible {
+      outline: 2px solid var(--accent-green);
+      outline-offset: 2px;
+    }
+
+    &:focus:not(:focus-visible) {
+      outline: none;
+    }
   }
   
   nav ul {
@@ -86,10 +95,19 @@ header {
     color: var(--link);
     border: 1px solid var(--border);
     padding: 5px 10px;
-    
+
     &:hover {
       background: var(--link-hover-bg);
       color: var(--link-hover-fg);
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--accent-green);
+      outline-offset: 2px;
+    }
+
+    &:focus:not(:focus-visible) {
+      outline: none;
     }
   }
   
@@ -134,10 +152,19 @@ header {
     color: var(--link);
     border: 1px solid var(--border);
     padding: 5px 10px;
-    
+
     &:hover {
       background: var(--link-hover-bg);
       color: var(--link-hover-fg);
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--accent-green);
+      outline-offset: 2px;
+    }
+
+    &:focus:not(:focus-visible) {
+      outline: none;
     }
   }
 }
@@ -189,11 +216,20 @@ article {
   a {
     color: var(--link);
     text-decoration: underline;
-    
+
     &:hover {
       background: var(--link-hover-bg);
       color: var(--link-hover-fg);
       text-decoration: none;
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--accent-green);
+      outline-offset: 2px;
+    }
+
+    &:focus:not(:focus-visible) {
+      outline: none;
     }
   }
   
