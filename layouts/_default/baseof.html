@@ -35,6 +35,8 @@
         const next = current === 'dark' ? 'light' : 'dark';
         html.setAttribute('data-theme', next);
         localStorage.setItem('theme', next);
+        // Remove focus to prevent lingering selection state
+        toggle.blur();
       });
     }
   </script>
