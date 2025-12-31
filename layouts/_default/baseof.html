@@ -3,10 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
-  <meta name="description" content="{{ .Site.Params.description }}">
+  {{- $title := partial "page-title.html" . -}}
+  <title>{{ $title }}</title>
+
+  {{- $description := .Site.Params.description -}}
+  {{- if .Params.description -}}
+    {{- $description = .Params.description -}}
+  {{- end -}}
+  <meta name="description" content="{{ $description }}">
+
+  <!-- Open Graph tags for link previews in messaging apps -->
+  <meta property="og:title" content="{{ $title }}">
+  <meta property="og:description" content="{{ $description }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="{{ if eq .Site.Language.Lang "nl" }}nl_BE{{ else }}en_US{{ end }}">
+  {{- if eq .Site.Language.Lang "nl" -}}
+  <meta property="og:locale:alternate" content="en_US">
+  {{- else -}}
+  <meta property="og:locale:alternate" content="nl_BE">
+  {{- end -}}
+
+  <!-- hreflang tags for bilingual SEO -->
+  {{- $xDefault := "" -}}
+  {{- range .AllTranslations -}}
+  <link rel="alternate" hreflang="{{ if eq .Language.Lang "nl" }}nl-BE{{ else }}en-US{{ end }}" href="{{ .Permalink }}" />
+    {{- if eq .Language.Lang "nl" -}}
+      {{- $xDefault = .Permalink -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if and .IsTranslated $xDefault -}}
+  <link rel="alternate" hreflang="x-default" href="{{ $xDefault }}" />
+  {{- end -}}
+
   {{ $style := resources.Get "scss/main.scss" | resources.ToCSS | resources.Minify }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
+
+  <!-- Schema.org structured data for SEO and AI optimization -->
+  {{ partial "schema.html" . }}
 </head>
 <body>
   {{ partial "header.html" . }}

@@ -1,5 +1,6 @@
 ---
 title: "Pieter-Jan"
+description: "Full-stack softwareconsultant gespecialiseerd in complexe domeinen en strakke integraties. Lead engineer bij TenderWolf, oprichter van Fiscalo. Gevestigd in Gent, België."
 ---
 
 ## Hoe ik werk

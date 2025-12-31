@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pitrian.be/sitemap.xml
