@@ -1,8 +1,6 @@
 ---
-title: "Pitrian"
+title: "Ik bouw software"
 ---
-
-## Ik bouw software.
 
 Van probleem tot werkend product. Complexe domeinen, vakjargon, strakke integraties: daar ben ik op mijn best.
 
