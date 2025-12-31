@@ -8,6 +8,6 @@ Van probleem tot werkend product. Complexe domeinen, vakjargon, strakke integrat
 
 Oprichter van Fiscalo. Medeoprichter van TenderWolf.
 
-**Gevestigd in Gent.**
+Gevestigd in Gent.
 
-**Momenteel niet beschikbaar voor nieuwe projecten.**
+Momenteel niet beschikbaar voor nieuwe projecten.
