@@ -24,6 +24,18 @@
   --code-fg: #f0f0f0;
 }
 
+// Mixin for consistent focus outline across all interactive elements
+@mixin focus-outline {
+  &:focus-visible {
+    outline: 2px solid var(--accent-green);
+    outline-offset: 2px;
+  }
+
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -73,14 +85,7 @@ header {
     letter-spacing: 0.05em;
     padding: 5px 10px;
 
-    &:focus-visible {
-      outline: 2px solid var(--accent-green);
-      outline-offset: 2px;
-    }
-
-    &:focus:not(:focus-visible) {
-      outline: none;
-    }
+    @include focus-outline;
   }
   
   nav ul {
@@ -101,14 +106,7 @@ header {
       color: var(--link-hover-fg);
     }
 
-    &:focus-visible {
-      outline: 2px solid var(--accent-green);
-      outline-offset: 2px;
-    }
-
-    &:focus:not(:focus-visible) {
-      outline: none;
-    }
+    @include focus-outline;
   }
   
   .header-controls {
@@ -131,15 +129,7 @@ header {
       color: var(--link-hover-fg);
     }
 
-    // Keep keyboard focus visible, avoid persistent outline on mouse click
-    &:focus-visible {
-      outline: 2px solid var(--accent-green);
-      outline-offset: 2px;
-    }
-
-    &:focus:not(:focus-visible) {
-      outline: none;
-    }
+    @include focus-outline;
 
     &:active {
       background: var(--bg);
@@ -158,14 +148,7 @@ header {
       color: var(--link-hover-fg);
     }
 
-    &:focus-visible {
-      outline: 2px solid var(--accent-green);
-      outline-offset: 2px;
-    }
-
-    &:focus:not(:focus-visible) {
-      outline: none;
-    }
+    @include focus-outline;
   }
 }
 
@@ -223,14 +206,7 @@ article {
       text-decoration: none;
     }
 
-    &:focus-visible {
-      outline: 2px solid var(--accent-green);
-      outline-offset: 2px;
-    }
-
-    &:focus:not(:focus-visible) {
-      outline: none;
-    }
+    @include focus-outline;
   }
   
   strong {
