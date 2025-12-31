@@ -134,6 +134,17 @@ header {
       color: var(--link-hover-fg);
     }
 
+    // Dark background for inverted icon (targeting dark mode)
+    &[data-theme-target="dark"] {
+      background: #1a1a1a;
+      color: #f0f0f0;
+
+      &:hover {
+        background: var(--link-hover-bg);
+        color: var(--link-hover-fg);
+      }
+    }
+
     @include focus-outline;
   }
   

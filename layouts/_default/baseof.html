@@ -22,19 +22,39 @@
     const toggle = document.getElementById('theme-toggle');
     const html = document.documentElement;
     const stored = localStorage.getItem('theme');
-    
+
+    // Function to update the icon based on current theme
+    function updateThemeIcon() {
+      const current = html.getAttribute('data-theme');
+      const icon = toggle.querySelector('.theme-icon');
+      if (current === 'dark') {
+        // Dark mode active, show light icon (where you'll go)
+        icon.textContent = '◐';
+        toggle.setAttribute('data-theme-target', 'light');
+      } else {
+        // Light mode active, show dark icon (where you'll go)
+        icon.textContent = '◑';
+        toggle.setAttribute('data-theme-target', 'dark');
+      }
+    }
+
     if (stored) {
       html.setAttribute('data-theme', stored);
     } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
       html.setAttribute('data-theme', 'dark');
     }
-    
+
     if (toggle) {
+      // Update icon on page load
+      updateThemeIcon();
+
       toggle.addEventListener('click', () => {
         const current = html.getAttribute('data-theme');
         const next = current === 'dark' ? 'light' : 'dark';
         html.setAttribute('data-theme', next);
         localStorage.setItem('theme', next);
+        // Update icon after switching
+        updateThemeIcon();
       });
     }
   </script>
