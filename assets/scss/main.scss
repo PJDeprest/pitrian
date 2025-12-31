@@ -106,6 +106,11 @@ header {
       color: var(--link-hover-fg);
     }
 
+    &:active {
+      background: var(--link-hover-bg);
+      color: var(--link-hover-fg);
+    }
+
     @include focus-outline;
   }
   
@@ -130,11 +135,6 @@ header {
     }
 
     @include focus-outline;
-
-    &:active {
-      background: var(--bg);
-      color: var(--fg);
-    }
   }
   
   .lang-switcher a {
@@ -201,6 +201,12 @@ article {
     text-decoration: underline;
 
     &:hover {
+      background: var(--link-hover-bg);
+      color: var(--link-hover-fg);
+      text-decoration: none;
+    }
+
+    &:active {
       background: var(--link-hover-bg);
       color: var(--link-hover-fg);
       text-decoration: none;
