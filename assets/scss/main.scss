@@ -24,6 +24,18 @@
   --code-fg: #f0f0f0;
 }
 
+// Mixin for consistent focus outline across all interactive elements
+@mixin focus-outline {
+  &:focus-visible {
+    outline: 2px solid var(--accent-green);
+    outline-offset: 2px;
+  }
+
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -72,6 +84,8 @@ header {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     padding: 5px 10px;
+
+    @include focus-outline;
   }
   
   nav ul {
@@ -86,11 +100,18 @@ header {
     color: var(--link);
     border: 1px solid var(--border);
     padding: 5px 10px;
-    
+
     &:hover {
       background: var(--link-hover-bg);
       color: var(--link-hover-fg);
     }
+
+    &:active {
+      background: var(--link-hover-bg);
+      color: var(--link-hover-fg);
+    }
+
+    @include focus-outline;
   }
   
   .header-controls {
@@ -107,11 +128,24 @@ header {
     cursor: pointer;
     font-family: inherit;
     font-size: 1rem;
-    
+
     &:hover {
       background: var(--link-hover-bg);
       color: var(--link-hover-fg);
     }
+
+    // Dark background for inverted icon (targeting dark mode)
+    &[data-theme-target="dark"] {
+      background: #1a1a1a;
+      color: #f0f0f0;
+
+      &:hover {
+        background: var(--link-hover-bg);
+        color: var(--link-hover-fg);
+      }
+    }
+
+    @include focus-outline;
   }
   
   .lang-switcher a {
@@ -119,11 +153,13 @@ header {
     color: var(--link);
     border: 1px solid var(--border);
     padding: 5px 10px;
-    
+
     &:hover {
       background: var(--link-hover-bg);
       color: var(--link-hover-fg);
     }
+
+    @include focus-outline;
   }
 }
 
@@ -174,12 +210,20 @@ article {
   a {
     color: var(--link);
     text-decoration: underline;
-    
+
     &:hover {
       background: var(--link-hover-bg);
       color: var(--link-hover-fg);
       text-decoration: none;
     }
+
+    &:active {
+      background: var(--link-hover-bg);
+      color: var(--link-hover-fg);
+      text-decoration: none;
+    }
+
+    @include focus-outline;
   }
   
   strong {
