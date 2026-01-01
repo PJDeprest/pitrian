@@ -1,6 +1,6 @@
 ---
 title: "About Pieter-Jan Deprest"
-description: "Full-stack software consultant specializing in complex domains and tight integrations. Lead engineer at TenderWolf, founder of Fiscalo. Based in Ghent, Belgium."
+description: "Full-stack software consultant specializing in complex domains and tight integrations. Co-founder of TenderWolf, founder of Fiscalo. Based in Ghent, Belgium."
 ---
 
 ## How I work

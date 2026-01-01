@@ -1,6 +1,6 @@
 ---
 title: "Over Pieter-Jan Deprest"
-description: "Full-stack softwareconsultant gespecialiseerd in complexe domeinen en strakke integraties. Lead engineer bij TenderWolf, oprichter van Fiscalo. Gevestigd in Gent, België."
+description: "Full-stack softwareconsultant gespecialiseerd in complexe domeinen en strakke integraties. Medeoprichter van TenderWolf, oprichter van Fiscalo. Gevestigd in Gent, België."
 ---
 
 ## Hoe ik werk
