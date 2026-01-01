@@ -6,3 +6,5 @@ description: "Neem contact op via email: contact at pitrian punt be. Momenteel n
 Via email: contact at pitrian punt be
 
 Niet op LinkedIn of andere socials.
+
+Momenteel niet beschikbaar voor nieuwe projecten.
