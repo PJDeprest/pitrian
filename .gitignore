@@ -8,6 +8,9 @@ resources/
 hugo
 LICENSE
 
+# Node
+node_modules/
+
 # IDE
 .vscode/
 .idea/

@@ -1,0 +1,28 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#d4d4d4"/>
+
+  <!-- Skewed green box for logo -->
+  <g transform="translate(600, 280)">
+    <rect x="-250" y="-60" width="500" height="120" fill="#1a3d2e" transform="skewX(-10)"/>
+    <text
+      x="0"
+      y="20"
+      font-family="JetBrains Mono, Fira Code, SF Mono, Consolas, Monaco, monospace"
+      font-size="72"
+      font-weight="700"
+      fill="#f0f0f0"
+      text-anchor="middle"
+      letter-spacing="3">PITRIAN</text>
+  </g>
+
+  <!-- Subtitle -->
+  <text
+    x="600"
+    y="420"
+    font-family="JetBrains Mono, Fira Code, SF Mono, Consolas, Monaco, monospace"
+    font-size="32"
+    font-weight="400"
+    fill="#1a3d2e"
+    text-anchor="middle">Ik bouw software</text>
+</svg>
