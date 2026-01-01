@@ -79,6 +79,7 @@ header {
   }
 
   .logo a {
+    display: inline-block;
     font-size: 1.5rem;
     font-weight: 700;
     text-decoration: none;
@@ -87,6 +88,12 @@ header {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     padding: 5px 10px;
+    transform: skewX(-10deg);
+
+    span {
+      display: inline-block;
+      transform: skewX(10deg);
+    }
 
     @include focus-outline;
   }
