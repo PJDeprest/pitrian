@@ -7,6 +7,8 @@ description: "Full-stack softwareconsultant gespecialiseerd in complexe domeinen
 
 Ik ben op mijn best bij complexe problemen en projecten die meerdere domeinen overspannen, waar vakjargon begrepen en vertaald moet worden naar technische oplossingen. Ik ontwerp eerst en implementeer daarna, met beproefde design patterns. Ik zorg ervoor dat ik mijn applicaties door en door ken.
 
+Ik lever complete oplossingen: van databaseontwerp via backendlogica tot een werkende interface. Niet alleen code, maar software die mensen echt kunnen gebruiken.
+
 Ik werk het liefst in kleine, hechte teams die alles zelf aankunnen. Ik houd niet van strikte scheidingen tussen frontend, backend, database en operations. Liever korte lijnen en persoonlijk contact dan calls met te veel mensen.
 
 ## Achtergrond

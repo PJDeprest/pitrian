@@ -7,6 +7,8 @@ description: "Full-stack software consultant specializing in complex domains and
 
 I thrive on complex problems and projects that span multiple domains, where domain jargon needs to be understood and translated into technical solutions. I design first, then implement, using proven design patterns. I make sure I know my applications inside out.
 
+I deliver complete solutions: from database design through backend logic to a working interface. Not just code, but software people can actually use.
+
 I prefer small, tight-knit teams that can handle everything themselves. No strict boundaries between frontend, backend, database and operations. Direct communication and personal contact over calls with too many people.
 
 ## Background
