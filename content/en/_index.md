@@ -8,5 +8,3 @@ From problem to working product. Complex domains, specialized jargon, tight inte
 Founder of Fiscalo. Co-founder of TenderWolf.
 
 Based in Ghent.
-
-Currently unavailable for new projects.

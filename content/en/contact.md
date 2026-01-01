@@ -6,3 +6,5 @@ description: "Get in touch via email: contact at pitrian dot be. Currently unava
 Via email: contact at pitrian dot be
 
 Not on LinkedIn or other socials.
+
+Currently unavailable for new projects.
