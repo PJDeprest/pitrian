@@ -4,6 +4,7 @@ languageCode = 'nl'
 title = 'Pitrian'
 defaultContentLanguage = 'nl'
 
+# Disable Hugo's default taxonomies (categories and tags)
 [taxonomies]
 
 [languages]
