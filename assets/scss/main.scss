@@ -387,7 +387,7 @@ footer {
 
 // Print stylesheet
 @media print {
-  // Override CSS variables to force black text everywhere
+  // Override CSS variables to force light theme with black text and borders for printing
   :root,
   [data-theme="dark"] {
     --bg: #fff;
