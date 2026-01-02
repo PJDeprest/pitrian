@@ -125,7 +125,6 @@ header {
   }
 
   nav .active {
-    display: inline-block;
     border: 1px solid var(--border);
     padding: 5px 10px;
     background: var(--accent-green);
@@ -186,7 +185,6 @@ header {
     }
 
     .active {
-      display: inline-block;
       border: 1px solid var(--border);
       padding: 5px 10px;
       background: var(--accent-green);
