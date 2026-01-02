@@ -160,6 +160,7 @@ header {
   }
   
   #theme-toggle {
+    display: inline-block;
     background: var(--bg);
     border: 1px solid var(--border);
     color: var(--fg);
@@ -167,6 +168,7 @@ header {
     cursor: pointer;
     font-family: inherit;
     font-size: 1rem;
+    line-height: 1.5;
 
     &:hover {
       background: var(--link-hover-bg);
