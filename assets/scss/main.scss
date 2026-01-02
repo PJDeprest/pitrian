@@ -389,7 +389,8 @@ footer {
 @media print {
   // Hide navigation and skip link
   .skip-link,
-  header {
+  header,
+  footer {
     display: none !important;
   }
 
@@ -399,27 +400,16 @@ footer {
     color: #000 !important;
   }
 
-  // Reset all theme colors
-  * {
+  // Target specific elements for color reset
+  main {
     background: transparent !important;
-    color: #000 !important;
-    border-color: #000 !important;
   }
 
-  // Preserve article structure and typography
+  // Article content
   article {
-    h1 {
-      color: #000 !important;
-      border-bottom-color: #000 !important;
-    }
-
+    h1,
     h2 {
-      color: #000 !important;
       border-bottom-color: #000 !important;
-    }
-
-    h3 {
-      color: #000 !important;
     }
 
     a {
@@ -427,8 +417,8 @@ footer {
       text-decoration: underline !important;
     }
 
-    // Show URLs for external links
-    a[href^="http"]::after {
+    // Show URLs only for truly external links (exclude pitrian.be)
+    a[href^="http"]:not([href*="pitrian.be"])::after {
       content: " (" attr(href) ")";
       font-size: 0.9em;
       font-weight: normal;
@@ -443,6 +433,7 @@ footer {
     pre {
       border: 1px solid #000 !important;
       background: #f5f5f5 !important;
+      color: #000 !important;
 
       code {
         background: transparent !important;
@@ -452,10 +443,5 @@ footer {
     blockquote {
       border-left-color: #000 !important;
     }
-  }
-
-  // Hide footer or keep minimal
-  footer {
-    display: none !important;
   }
 }
