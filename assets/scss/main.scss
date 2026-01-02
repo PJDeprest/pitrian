@@ -123,6 +123,15 @@ header {
 
     @include focus-outline;
   }
+
+  nav .active {
+    display: inline-block;
+    border: 1px solid var(--border);
+    padding: 5px 10px;
+    background: var(--accent-green);
+    color: #f0f0f0;
+    cursor: default;
+  }
   
   .header-controls {
     display: flex;
@@ -144,8 +153,8 @@ header {
       color: var(--link-hover-fg);
     }
 
-    // Green background for inverted icon (targeting dark mode)
-    &[data-theme-target="dark"] {
+    // Green background for active dark mode
+    &[data-theme-current="dark"] {
       background: var(--accent-green);
       color: #f0f0f0;
 
@@ -158,18 +167,32 @@ header {
     @include focus-outline;
   }
   
-  .lang-switcher a {
-    text-decoration: none;
-    color: var(--link);
-    border: 1px solid var(--border);
-    padding: 5px 10px;
+  .lang-switcher {
+    display: flex;
+    gap: 10px;
 
-    &:hover {
-      background: var(--link-hover-bg);
-      color: var(--link-hover-fg);
+    a {
+      text-decoration: none;
+      color: var(--link);
+      border: 1px solid var(--border);
+      padding: 5px 10px;
+
+      &:hover {
+        background: var(--link-hover-bg);
+        color: var(--link-hover-fg);
+      }
+
+      @include focus-outline;
     }
 
-    @include focus-outline;
+    .active {
+      display: inline-block;
+      border: 1px solid var(--border);
+      padding: 5px 10px;
+      background: var(--accent-green);
+      color: #f0f0f0;
+      cursor: default;
+    }
   }
 }
 

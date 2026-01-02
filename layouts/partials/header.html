@@ -8,7 +8,18 @@
       <nav>
         <ul>
           {{ range .Site.Menus.main }}
-          <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+          <li>
+            {{ $isActive := false }}
+            {{ $menuURL := .URL | relLangURL }}
+            {{ if eq $menuURL $.RelPermalink }}
+              {{ $isActive = true }}
+            {{ end }}
+            {{ if $isActive }}
+              <span class="active">{{ .Name }}</span>
+            {{ else }}
+              <a href="{{ $menuURL }}">{{ .Name }}</a>
+            {{ end }}
+          </li>
           {{ end }}
         </ul>
       </nav>
@@ -20,6 +31,7 @@
         
         {{ if .IsTranslated }}
         <div class="lang-switcher">
+          <span class="active">{{ .Lang | lower }}</span>
           {{ range .Translations }}
           <a href="{{ .Permalink }}">{{ .Lang | lower }}</a>
           {{ end }}
