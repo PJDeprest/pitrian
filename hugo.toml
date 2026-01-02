@@ -4,6 +4,8 @@ languageCode = 'nl'
 title = 'Pitrian'
 defaultContentLanguage = 'nl'
 
+[taxonomies]
+
 [languages]
   [languages.en]
     languageName = 'English'
