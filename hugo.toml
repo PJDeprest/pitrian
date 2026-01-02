@@ -71,7 +71,7 @@ defaultContentLanguage = 'nl'
   author = 'Pitrian'
 
 [outputs]
-  home = ['HTML']
+  home = ['HTML', 'sitemap']
   page = ['HTML']
 
 [markup]
