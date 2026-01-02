@@ -123,6 +123,15 @@ header {
 
     @include focus-outline;
   }
+
+  nav .active {
+    display: inline-block;
+    border: 1px solid var(--border);
+    padding: 5px 10px;
+    background: var(--accent-green);
+    color: #f0f0f0;
+    cursor: default;
+  }
   
   .header-controls {
     display: flex;
