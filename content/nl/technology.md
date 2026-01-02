@@ -25,6 +25,8 @@ Technologieën waarmee ik werk. Nieuwe tools leer ik snel bij wanneer nodig.
 
 ## Aan het verkennen
 
-Haskell (functioneel programmeren)
-Hugo (statische sitegenerator)
-OpenSCAD (3D printing)
+**Haskell** — Functioneel programmeren. Dwingt me om problemen anders te benaderen dan ik gewend ben.
+
+**Hugo** — Statische sites waar dat kan. Sneller, veiliger en zuiniger dan een CMS als WordPress. Deze site is ermee gebouwd.
+
+**OpenSCAD** — 3D-modellen schrijven in code. Parametrisch en reproduceerbaar, past bij hoe ik denk.
