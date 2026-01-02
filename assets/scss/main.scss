@@ -106,6 +106,7 @@ header {
   }
   
   nav a {
+    display: inline-block;
     text-decoration: none;
     color: var(--link);
     border: 1px solid var(--border);
@@ -172,6 +173,7 @@ header {
     gap: 10px;
 
     a {
+      display: inline-block;
       text-decoration: none;
       color: var(--link);
       border: 1px solid var(--border);
