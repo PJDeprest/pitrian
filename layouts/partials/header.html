@@ -32,11 +32,11 @@
         
         {{ if .IsTranslated }}
         <div class="lang-switcher">
-          {{ range sort .AllTranslations ".Lang" }}
-            {{ if eq .Lang $.Lang }}
-              <span class="active">{{ .Lang | lower }}</span>
+          {{ range sort .AllTranslations ".Language.Lang" }}
+            {{ if eq .Language.Lang $.Lang }}
+              <span class="active">{{ .Language.Lang | lower }}</span>
             {{ else }}
-              <a href="{{ .Permalink }}">{{ .Lang | lower }}</a>
+              <a href="{{ .Permalink }}">{{ .Language.Lang | lower }}</a>
             {{ end }}
           {{ end }}
         </div>
