@@ -31,6 +31,7 @@
         
         {{ if .IsTranslated }}
         <div class="lang-switcher">
+          <span class="active">{{ .Lang | lower }}</span>
           {{ range .Translations }}
           <a href="{{ .Permalink }}">{{ .Lang | lower }}</a>
           {{ end }}

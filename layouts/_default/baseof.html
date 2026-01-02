@@ -68,13 +68,13 @@
       const current = html.getAttribute('data-theme');
       const icon = toggle.querySelector('.theme-icon');
       if (current === 'dark') {
-        // Dark mode active, show light icon (where you'll go)
-        icon.textContent = '◐';
-        toggle.setAttribute('data-theme-target', 'light');
-      } else {
-        // Light mode active, show dark icon (where you'll go)
+        // Dark mode active, show dark icon (current state)
         icon.textContent = '◑';
-        toggle.setAttribute('data-theme-target', 'dark');
+        toggle.setAttribute('data-theme-current', 'dark');
+      } else {
+        // Light mode active, show light icon (current state)
+        icon.textContent = '◐';
+        toggle.setAttribute('data-theme-current', 'light');
       }
     }
 
