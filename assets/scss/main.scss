@@ -61,6 +61,25 @@ body {
   padding: 0 20px;
 }
 
+// Skip to content link - visually hidden, visible on focus
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--accent-green);
+  color: #f0f0f0;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: 700;
+  z-index: 100;
+
+  &:focus {
+    top: 0;
+  }
+
+  @include focus-outline;
+}
+
 // Header
 header {
   border-bottom: 3px solid var(--accent-green);
@@ -362,6 +381,70 @@ footer {
       grid-area: lang;
       display: flex !important;
       gap: 10px;
+    }
+  }
+}
+
+// Print stylesheet
+@media print {
+  // Override CSS variables to force light theme with black text and borders for printing
+  :root,
+  [data-theme="dark"] {
+    --bg: #fff;
+    --fg: #000;
+    --border: #000;
+    --accent-green: #000;
+    --link: #000;
+    --link-hover-bg: transparent;
+    --link-hover-fg: #000;
+    --code-bg: #f5f5f5;
+    --code-fg: #000;
+  }
+
+  // Hide navigation and skip link
+  .skip-link,
+  header,
+  footer {
+    display: none !important;
+  }
+
+  // Force light theme for printing
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  // Target specific elements for color reset
+  main {
+    background: transparent !important;
+  }
+
+  // Article content
+  article {
+    // Ensure borders are black (variables handle colors now)
+    h1,
+    h2 {
+      border-bottom-color: #000 !important;
+    }
+
+    // Show URLs only for truly external links (exclude pitrian.be)
+    a[href^="http"]:not([href*="pitrian.be"])::after {
+      content: " (" attr(href) ")";
+      font-size: 0.9em;
+      font-weight: normal;
+    }
+
+    // Ensure solid borders on code elements
+    code {
+      border-color: #000 !important;
+    }
+
+    pre {
+      border-color: #000 !important;
+    }
+
+    blockquote {
+      border-left-color: #000 !important;
     }
   }
 }
