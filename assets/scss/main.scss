@@ -387,6 +387,20 @@ footer {
 
 // Print stylesheet
 @media print {
+  // Override CSS variables to force black text everywhere
+  :root,
+  [data-theme="dark"] {
+    --bg: #fff;
+    --fg: #000;
+    --border: #000;
+    --accent-green: #000;
+    --link: #000;
+    --link-hover-bg: transparent;
+    --link-hover-fg: #000;
+    --code-bg: #f5f5f5;
+    --code-fg: #000;
+  }
+
   // Hide navigation and skip link
   .skip-link,
   header,
@@ -407,14 +421,10 @@ footer {
 
   // Article content
   article {
+    // Ensure borders are black (variables handle colors now)
     h1,
     h2 {
       border-bottom-color: #000 !important;
-    }
-
-    a {
-      color: #000 !important;
-      text-decoration: underline !important;
     }
 
     // Show URLs only for truly external links (exclude pitrian.be)
@@ -424,20 +434,13 @@ footer {
       font-weight: normal;
     }
 
+    // Ensure solid borders on code elements
     code {
-      border: 1px solid #000 !important;
-      background: #f5f5f5 !important;
-      color: #000 !important;
+      border-color: #000 !important;
     }
 
     pre {
-      border: 1px solid #000 !important;
-      background: #f5f5f5 !important;
-      color: #000 !important;
-
-      code {
-        background: transparent !important;
-      }
+      border-color: #000 !important;
     }
 
     blockquote {
