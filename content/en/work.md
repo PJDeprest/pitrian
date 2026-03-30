@@ -23,4 +23,6 @@ The target audience is accountants and self-employed, with an emphasis on accoun
 
 Technically, the challenge is translating Belgian tax law into maintainable code. The legislation is complex, and the calculations are not always logically structured. The art is keeping that complexity from bleeding into the code.
 
+In 2025, Securex — one of Belgium's largest social secretariats — acquired Fiscalo. Development continues within Securex.
+
 **[fiscalo.be](https://fiscalo.be)**

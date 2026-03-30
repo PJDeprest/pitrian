@@ -23,4 +23,6 @@ De doelgroep zijn accountants en zelfstandigen, met de nadruk op accountants wan
 
 Technisch is de uitdaging het vertalen van Belgische fiscale wetgeving naar onderhoudbare code. Die wetgeving is complex, en de berekeningen zijn niet altijd logisch opgebouwd. De kunst is om die complexiteit niet te laten doorsijpelen in de code.
 
+In 2025 nam Securex — een van de grootste sociaal secretariaten van België — Fiscalo over. De ontwikkeling loopt verder binnen Securex.
+
 **[fiscalo.be](https://fiscalo.be)**

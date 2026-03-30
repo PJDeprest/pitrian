@@ -17,7 +17,7 @@ Ik studeerde economie en internationale betrekkingen aan de UGent. In mijn laats
 
 Bij TenderWolf begon ik met een klein project binnen een grotere applicatie. Geleidelijk groeide ik door naar lead engineer en later aandeelhouder. Tien jaar lang bouwde ik mee aan het aanbestedingsplatform: design, analyse, implementatie, testing, deployment, database, alles.
 
-In 2019 startte ik Fiscalo met enkele vrienden als nevenproject. Tijdens de coronalockdowns kreeg het vleugels. Fiscalo is een loonapplicatie voor Belgische accountants: een vertaling van complexe fiscale wetgeving naar werkbare software.
+In 2019 startte ik Fiscalo met enkele vrienden als nevenproject. Tijdens de coronalockdowns kreeg het vleugels. Fiscalo is een loonapplicatie voor Belgische accountants: een vertaling van complexe fiscale wetgeving naar werkbare software. In 2025 nam Securex — een van de grootste sociaal secretariaten van België — Fiscalo over. Sindsdien werk ik bij Securex verder aan het product.
 
 ## Locatie 
 
