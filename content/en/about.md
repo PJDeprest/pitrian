@@ -17,7 +17,7 @@ I studied economics and international relations at Ghent University. In my final
 
 At TenderWolf I started with a small project within a larger application. Gradually I grew into lead engineer and later shareholder. For ten years I helped build the procurement platform: design, analysis, implementation, testing, deployment, database, everything.
 
-In 2019 I started Fiscalo with a few friends as a side project. During the corona lockdowns it took off. Fiscalo is a payroll application for Belgian accountants: a translation of complex fiscal legislation into workable software.
+In 2019 I started Fiscalo with a few friends as a side project. During the corona lockdowns it took off. Fiscalo is a payroll application for Belgian accountants: a translation of complex fiscal legislation into workable software. In 2025, Securex — one of Belgium's largest social secretariats — acquired Fiscalo. I now work at Securex as part of the Fiscalo team.
 
 ## Location
 
