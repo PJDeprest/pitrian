@@ -3,9 +3,9 @@
   <article class="error-404">
     <h1>404</h1>
     <div class="content">
-      <p><strong>{{ if eq .Site.Language.Lang "nl" }}Pagina niet gevonden{{ else }}Page not found{{ end }}</strong></p>
-      <p>{{ if eq .Site.Language.Lang "nl" }}De pagina die je zoekt bestaat niet of is verplaatst.{{ else }}The page you're looking for doesn't exist or has been moved.{{ end }}</p>
-      <p><a href="{{ .Site.Home.RelPermalink }}">{{ if eq .Site.Language.Lang "nl" }}← Terug naar home{{ else }}← Back to home{{ end }}</a></p>
+      <p><strong>{{ i18n "notFoundHeading" }}</strong></p>
+      <p>{{ i18n "notFoundBody" }}</p>
+      <p><a href="{{ .Site.Home.RelPermalink }}">{{ i18n "backToHome" }}</a></p>
     </div>
   </article>
 </div>

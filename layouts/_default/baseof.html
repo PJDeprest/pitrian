@@ -17,11 +17,11 @@
   <meta property="og:description" content="{{ $description }}">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="{{ if eq .Site.Language.Lang "nl" }}nl_BE{{ else }}en_US{{ end }}">
-  {{- if eq .Site.Language.Lang "nl" -}}
-  <meta property="og:locale:alternate" content="en_US">
-  {{- else -}}
-  <meta property="og:locale:alternate" content="nl_BE">
+  <meta property="og:locale" content="{{ .Site.Language.LanguageCode | replace "-" "_" }}">
+  {{- range .Site.Languages -}}
+    {{- if ne .Lang $.Site.Language.Lang -}}
+  <meta property="og:locale:alternate" content="{{ .LanguageCode | replace "-" "_" }}">
+    {{- end -}}
   {{- end -}}
   <meta property="og:image" content="{{ .Site.BaseURL }}logo-{{ .Site.Language.Lang }}.png">
   <meta property="og:image:width" content="1200">
@@ -33,7 +33,7 @@
   <!-- hreflang tags for bilingual SEO -->
   {{- $xDefault := "" -}}
   {{- range .AllTranslations -}}
-  <link rel="alternate" hreflang="{{ if eq .Language.Lang "nl" }}nl-BE{{ else }}en-US{{ end }}" href="{{ .Permalink }}" />
+  <link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}" />
     {{- if eq .Language.Lang "nl" -}}
       {{- $xDefault = .Permalink -}}
     {{- end -}}
@@ -68,12 +68,10 @@
       const current = html.getAttribute('data-theme');
       const icon = toggle.querySelector('.theme-icon');
       if (current === 'dark') {
-        // Dark mode active, show dark icon (current state)
-        icon.textContent = '◑';
+        if (icon) icon.textContent = '◑';
         toggle.setAttribute('data-theme-current', 'dark');
       } else {
-        // Light mode active, show light icon (current state)
-        icon.textContent = '◐';
+        if (icon) icon.textContent = '◐';
         toggle.setAttribute('data-theme-current', 'light');
       }
     }

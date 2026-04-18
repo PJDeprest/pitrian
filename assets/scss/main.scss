@@ -383,6 +383,8 @@ footer {
 }
 
 // Print stylesheet
+// Direct property overrides use !important to beat data-theme attribute styles and
+// runtime JS-applied values; CSS variables below do not need it.
 @media print {
   // Override CSS variables to force light theme with black text and borders for printing
   :root,

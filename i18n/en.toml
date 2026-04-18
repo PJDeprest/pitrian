@@ -9,3 +9,12 @@ other = "Contact"
 
 [toggleTheme]
 other = "Toggle theme"
+
+[notFoundHeading]
+other = "Page not found"
+
+[notFoundBody]
+other = "The page you're looking for doesn't exist or has been moved."
+
+[backToHome]
+other = "← Back to home"

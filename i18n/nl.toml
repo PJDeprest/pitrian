@@ -9,3 +9,12 @@ other = "Contact"
 
 [toggleTheme]
 other = "Wissel thema"
+
+[notFoundHeading]
+other = "Pagina niet gevonden"
+
+[notFoundBody]
+other = "De pagina die je zoekt bestaat niet of is verplaatst."
+
+[backToHome]
+other = "← Terug naar home"

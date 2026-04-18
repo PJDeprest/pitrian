@@ -10,6 +10,7 @@ defaultContentLanguage = 'nl'
 [languages]
   [languages.en]
     languageName = 'English'
+    languageCode = 'en-US'
     weight = 2
     contentDir = 'content/en'
     [languages.en.params]
@@ -41,6 +42,7 @@ defaultContentLanguage = 'nl'
   
   [languages.nl]
     languageName = 'Nederlands'
+    languageCode = 'nl-BE'
     weight = 1
     contentDir = 'content/nl'
     [languages.nl.params]
