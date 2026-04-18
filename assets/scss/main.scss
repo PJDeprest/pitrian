@@ -383,6 +383,8 @@ footer {
 }
 
 // Print stylesheet
+// !important is required throughout this block: print styles must override inline
+// data-theme attribute styles and any runtime JS-applied values that have higher specificity.
 @media print {
   // Override CSS variables to force light theme with black text and borders for printing
   :root,
