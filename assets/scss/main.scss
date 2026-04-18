@@ -341,19 +341,6 @@ footer {
 
   a {
     color: var(--link);
-    text-decoration: underline;
-
-    &:hover {
-      background: var(--link-hover-bg);
-      color: var(--link-hover-fg);
-      text-decoration: none;
-    }
-
-    &:active {
-      background: var(--link-hover-bg);
-      color: var(--link-hover-fg);
-      text-decoration: none;
-    }
 
     @include focus-outline;
   }
