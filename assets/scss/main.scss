@@ -61,6 +61,21 @@
   @include focus-outline;
 }
 
+@mixin active-item {
+  display: inline-block;
+  border: 1px solid var(--border);
+  padding: 5px 10px;
+  background: var(--accent-green);
+  color: #f0f0f0;
+  cursor: default;
+}
+
+@mixin page-width {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -107,12 +122,10 @@ body {
 
 // Header
 header {
+  @include page-width;
   border-bottom: 3px solid var(--accent-green);
   padding: 20px 0;
   margin-bottom: 40px;
-  max-width: 1300px;
-  margin-left: auto;
-  margin-right: auto;
 
   .header-content {
     display: flex;
@@ -154,12 +167,7 @@ header {
   }
 
   nav .active {
-    display: inline-block;
-    border: 1px solid var(--border);
-    padding: 5px 10px;
-    background: var(--accent-green);
-    color: #f0f0f0;
-    cursor: default;
+    @include active-item;
   }
   
   .header-controls {
@@ -207,12 +215,7 @@ header {
     }
 
     .active {
-      display: inline-block;
-      border: 1px solid var(--border);
-      padding: 5px 10px;
-      background: var(--accent-green);
-      color: #f0f0f0;
-      cursor: default;
+      @include active-item;
     }
   }
 }
@@ -315,12 +318,10 @@ article {
 
 // Footer
 footer {
+  @include page-width;
   border-top: 3px solid var(--accent-green);
   padding: 20px 0;
   margin-top: 40px;
-  max-width: 1300px;
-  margin-left: auto;
-  margin-right: auto;
 
   p {
     text-align: center;
