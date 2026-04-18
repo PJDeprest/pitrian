@@ -24,6 +24,7 @@
   --code-fg: #f0f0f0;
 }
 
+// Mixins for shared interactive element styles
 @mixin focus-outline {
   &:focus-visible {
     outline: 2px solid var(--accent-green);
@@ -35,6 +36,7 @@
   }
 }
 
+// Bordered link: nav and language switcher buttons
 @mixin bordered-link {
   display: inline-block;
   text-decoration: none;
@@ -50,17 +52,21 @@
   @include focus-outline;
 }
 
+// Text link: inline links in article body and footer
 @mixin text-link {
   color: var(--link);
+  text-decoration: underline;
 
   &:hover, &:active {
     background: var(--link-hover-bg);
     color: var(--link-hover-fg);
+    text-decoration: none;
   }
 
   @include focus-outline;
 }
 
+// Active state for nav and language switcher items
 @mixin active-item {
   display: inline-block;
   border: 1px solid var(--border);
@@ -70,6 +76,7 @@
   cursor: default;
 }
 
+// Full-width centered layout for header and footer
 @mixin page-width {
   max-width: 1300px;
   margin-left: auto;
@@ -266,11 +273,6 @@ article {
   
   a {
     @include text-link;
-    text-decoration: underline;
-
-    &:hover, &:active {
-      text-decoration: none;
-    }
   }
   
   strong {
