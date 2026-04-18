@@ -24,7 +24,7 @@
   --code-fg: #f0f0f0;
 }
 
-// Mixin for consistent focus outline across all interactive elements
+// Mixins for shared interactive element styles
 @mixin focus-outline {
   &:focus-visible {
     outline: 2px solid var(--accent-green);
@@ -34,6 +34,53 @@
   &:focus:not(:focus-visible) {
     outline: none;
   }
+}
+
+// Bordered link: nav and language switcher buttons
+@mixin bordered-link {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--link);
+  border: 1px solid var(--border);
+  padding: 5px 10px;
+
+  &:hover, &:active {
+    background: var(--link-hover-bg);
+    color: var(--link-hover-fg);
+  }
+
+  @include focus-outline;
+}
+
+// Text link: inline links in article body and footer
+@mixin text-link {
+  color: var(--link);
+  text-decoration: underline;
+
+  &:hover, &:active {
+    background: var(--link-hover-bg);
+    color: var(--link-hover-fg);
+    text-decoration: none;
+  }
+
+  @include focus-outline;
+}
+
+// Active state for nav and language switcher items
+@mixin active-item {
+  display: inline-block;
+  border: 1px solid var(--border);
+  padding: 5px 10px;
+  background: var(--accent-green);
+  color: #f0f0f0;
+  cursor: default;
+}
+
+// Full-width centered layout for header and footer
+@mixin page-width {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 * {
@@ -82,12 +129,10 @@ body {
 
 // Header
 header {
+  @include page-width;
   border-bottom: 3px solid var(--accent-green);
   padding: 20px 0;
   margin-bottom: 40px;
-  max-width: 1300px;
-  margin-left: auto;
-  margin-right: auto;
 
   .header-content {
     display: flex;
@@ -125,32 +170,11 @@ header {
   }
   
   nav a {
-    display: inline-block;
-    text-decoration: none;
-    color: var(--link);
-    border: 1px solid var(--border);
-    padding: 5px 10px;
-
-    &:hover {
-      background: var(--link-hover-bg);
-      color: var(--link-hover-fg);
-    }
-
-    &:active {
-      background: var(--link-hover-bg);
-      color: var(--link-hover-fg);
-    }
-
-    @include focus-outline;
+    @include bordered-link;
   }
 
   nav .active {
-    display: inline-block;
-    border: 1px solid var(--border);
-    padding: 5px 10px;
-    background: var(--accent-green);
-    color: #f0f0f0;
-    cursor: default;
+    @include active-item;
   }
   
   .header-controls {
@@ -194,27 +218,11 @@ header {
     gap: 10px;
 
     a {
-      display: inline-block;
-      text-decoration: none;
-      color: var(--link);
-      border: 1px solid var(--border);
-      padding: 5px 10px;
-
-      &:hover {
-        background: var(--link-hover-bg);
-        color: var(--link-hover-fg);
-      }
-
-      @include focus-outline;
+      @include bordered-link;
     }
 
     .active {
-      display: inline-block;
-      border: 1px solid var(--border);
-      padding: 5px 10px;
-      background: var(--accent-green);
-      color: #f0f0f0;
-      cursor: default;
+      @include active-item;
     }
   }
 }
@@ -264,22 +272,7 @@ article {
   }
   
   a {
-    color: var(--link);
-    text-decoration: underline;
-
-    &:hover {
-      background: var(--link-hover-bg);
-      color: var(--link-hover-fg);
-      text-decoration: none;
-    }
-
-    &:active {
-      background: var(--link-hover-bg);
-      color: var(--link-hover-fg);
-      text-decoration: none;
-    }
-
-    @include focus-outline;
+    @include text-link;
   }
   
   strong {
@@ -327,16 +320,18 @@ article {
 
 // Footer
 footer {
+  @include page-width;
   border-top: 3px solid var(--accent-green);
   padding: 20px 0;
   margin-top: 40px;
-  max-width: 1300px;
-  margin-left: auto;
-  margin-right: auto;
 
   p {
     text-align: center;
     font-size: 0.9rem;
+  }
+
+  a {
+    @include text-link;
   }
 }
 
