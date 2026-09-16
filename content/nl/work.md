@@ -25,4 +25,4 @@ Technisch is de uitdaging het vertalen van Belgische fiscale wetgeving naar onde
 
 In 2025 nam Securex, een van de grootste sociaal secretariaten van België, Fiscalo en het team over. In het jaar dat volgde bouwden we het om tot de Bedrijfsleiderstool van Securex: onderdeel van MySecurex, gratis voor partneraccountants, en rechtstreeks gekoppeld aan de loonmotor en het sociaal verzekeringsfonds van Securex.
 
-**[Bedrijfsleiderstool](https://www.securex.be/nl/accountants/bedrijfsleiderstool)**
+**[www.securex.be/nl/accountants/bedrijfsleiderstool](https://www.securex.be/nl/accountants/bedrijfsleiderstool)**
