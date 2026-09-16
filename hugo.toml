@@ -1,6 +1,6 @@
 baseURL = 'https://pitrian.be/'
 canonifyURLs = true
-languageCode = 'nl'
+locale = 'nl'
 title = 'Pitrian'
 defaultContentLanguage = 'nl'
 
@@ -9,8 +9,8 @@ defaultContentLanguage = 'nl'
 
 [languages]
   [languages.en]
-    languageName = 'English'
-    languageCode = 'en-US'
+    label = 'English'
+    locale = 'en-US'
     weight = 2
     contentDir = 'content/en'
     [languages.en.params]
@@ -41,8 +41,8 @@ defaultContentLanguage = 'nl'
       weight = 5
   
   [languages.nl]
-    languageName = 'Nederlands'
-    languageCode = 'nl-BE'
+    label = 'Nederlands'
+    locale = 'nl-BE'
     weight = 1
     contentDir = 'content/nl'
     [languages.nl.params]
@@ -78,8 +78,3 @@ defaultContentLanguage = 'nl'
 [outputs]
   home = ['HTML', 'SITEMAP']
   page = ['HTML']
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
