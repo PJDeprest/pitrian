@@ -5,19 +5,21 @@ description: "Full-stack software consultant specializing in complex domains and
 
 ## How I work
 
-I thrive on complex problems and projects that span multiple domains, where domain jargon needs to be understood and translated into technical solutions. I design first, then implement, using proven design patterns. I make sure I know my applications inside out.
+I do my best work on complex problems that span multiple domains, where domain jargon needs to be understood and translated into technical solutions. Before I build anything, I want to know what problem it solves and why that problem matters. I know the applications I work on inside out.
 
-I deliver complete solutions: from database design through backend logic to a working interface. Not just code, but software people can actually use.
+I deliver complete solutions: from database design through backend logic to an interface people use every day.
 
-I prefer small, tight-knit teams that can handle everything themselves. No strict boundaries between frontend, backend, database and operations. Direct communication and personal contact over calls with too many people.
+I prefer small, tight-knit teams that own a product end to end. I treat frontend, backend, database and operations as one whole. Short lines and personal contact work best for me.
 
 ## Background
 
-I studied economics and international relations at Ghent University. In my final year I came into contact with TenderWolf and started programming. Not from a computer science background, but on the job. I see that background as a strength: I think broader than code alone.
+I studied economics and international relations at Ghent University. In my final year I got involved with TenderWolf. That's where I learned to program, by building the platform.
 
-At TenderWolf I started with a small project within a larger application. Gradually I grew into lead engineer and later shareholder. For ten years I helped build the procurement platform: design, analysis, implementation, testing, deployment, database, everything.
+I co-founded TenderWolf and grew into its lead engineer. For ten years I helped build the procurement platform, from analysis and design to deployment and operations.
 
-In 2019 I started Fiscalo with a few friends as a side project. During the corona lockdowns it took off. Fiscalo is a payroll application for Belgian accountants: a translation of complex fiscal legislation into workable software. In 2025, Securex — one of Belgium's largest social secretariats — acquired Fiscalo. I now work at Securex as part of the Fiscalo team.
+In 2020 I founded Fiscalo with a few friends, as a side project. During the corona lockdowns it took off. Fiscalo is a payroll application for Belgian accountants: a translation of complex fiscal legislation into workable software. In 2025, Securex, one of Belgium's largest social secretariats, acquired Fiscalo.
+
+Since then I've worked at Securex as a consultant. The whole Fiscalo team moved over with me. In the first year we rebuilt the product into the Business Owner Tool, shaped around what Securex needed. After that I moved into the architecture team. In practice I spend most of my time in a product team dedicated to a single product, where architecture, analysis and development are in the same hands.
 
 ## Location
 

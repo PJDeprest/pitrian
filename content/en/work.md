@@ -1,6 +1,6 @@
 ---
 title: "Work"
-description: "Portfolio of software projects: TenderWolf - European tender aggregation platform, and Fiscalo - Belgian payroll tax calculator for accountants and self-employed."
+description: "Portfolio of software projects: TenderWolf - European tender aggregation platform, and Fiscalo - Belgian payroll tax calculator for accountants."
 ---
 
 ## TenderWolf
@@ -11,18 +11,18 @@ Search is fuzzy and extends into specification documents. Filters are plentiful:
 
 Companies use TenderWolf to find tenders to bid on. Governments use it to find inspiration from similar tenders by other agencies.
 
-Technically, the platform runs on scraping cycles that must execute reliably every hour. Tenders arrive in all kinds of formats. An elaborate parsing system with factories assigns the correct process based on file type. The challenge lies in processing that multitude of formats from different sources in a structured, maintainable way.
+Technically, the platform runs on scraping cycles that must execute reliably every hour. Tenders arrive in all kinds of formats. A dedicated parsing layer routes each document to the right processor based on its file type. The challenge lies in processing that multitude of formats from different sources in a structured, maintainable way.
 
 **[tenderwolf.com](https://tenderwolf.com)**
 
 ## Fiscalo
 
-Fiscalo calculates taxes for self-employed consultants who pay themselves a salary from their own company. The full fiscal situation is taken into account: salary configuration with all its components, family composition, social contributions, company tax, personal income tax, pension accrual. The tool shows different scenarios, allowing users to compare and optimize their situation.
+Fiscalo calculates taxes for company directors who pay themselves a salary from their own company. The full fiscal situation is taken into account: salary configuration with all its components, family composition, social contributions, company tax, personal income tax, pension accrual. The tool shows different scenarios, allowing users to compare and optimize their situation.
 
-The target audience is accountants and self-employed, with an emphasis on accountants because the subject matter is complex.
+The target audience is accountants, who use it to advise their clients on complex matters.
 
 Technically, the challenge is translating Belgian tax law into maintainable code. The legislation is complex, and the calculations are not always logically structured. The art is keeping that complexity from bleeding into the code.
 
-In 2025, Securex — one of Belgium's largest social secretariats — acquired Fiscalo. Development continues within Securex.
+In 2025, Securex, one of Belgium's largest social secretariats, acquired Fiscalo along with its team. Over the following year we rebuilt it into Securex's Business Owner Tool: part of the MySecurex portal, free for partner accountants, and connected directly to Securex's payroll engine and social insurance fund.
 
-**[fiscalo.be](https://fiscalo.be)**
+**[Business Owner Tool](https://www.securex.be/nl/accountants/bedrijfsleiderstool)**

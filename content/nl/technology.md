@@ -1,9 +1,9 @@
 ---
 title: "Technologie"
-description: "Tech stack en tools: Java Spring Boot, React, TypeScript, PostgreSQL, Elasticsearch, GCP, Docker, Terraform. Nieuwe technologieën leer ik snel bij."
+description: "Tech stack en tools: Java Spring Boot, React, TypeScript, PostgreSQL, Elasticsearch, GCP, Docker, Terraform. Niet gebonden aan één stack."
 ---
 
-Technologieën waarmee ik werk. Nieuwe tools leer ik snel bij wanneer nodig.
+Technologieën waarmee ik dagelijks werk. Ik zit er niet aan vast: vraagt een project iets anders, dan leer ik dat.
 
 ## Mijn stack
 
@@ -25,8 +25,6 @@ Technologieën waarmee ik werk. Nieuwe tools leer ik snel bij wanneer nodig.
 
 ## Aan het verkennen
 
-**Haskell** — Functioneel programmeren. Dwingt me om problemen anders te benaderen dan ik gewend ben.
+**Haskell**: Functioneel programmeren. Dwingt me om problemen anders te benaderen dan ik gewend ben.
 
-**Hugo** — Statische sites waar dat kan. Sneller, veiliger en zuiniger dan een CMS als WordPress. Deze site is ermee gebouwd.
-
-**OpenSCAD** — 3D-modellen schrijven in code. Parametrisch en reproduceerbaar, past bij hoe ik denk.
+**OpenSCAD**: 3D-modellen schrijven in code. Parametrisch en reproduceerbaar, past bij hoe ik denk.
