@@ -25,4 +25,4 @@ Technically, the challenge is translating Belgian tax law into maintainable code
 
 In 2025, Securex, one of Belgium's largest social secretariats, acquired Fiscalo along with its team. Over the following year we rebuilt it into Securex's Business Owner Tool: part of the MySecurex portal, free for partner accountants, and connected directly to Securex's payroll engine and social insurance fund.
 
-**[www.securex.be/nl/accountants/bedrijfsleiderstool](https://www.securex.be/nl/accountants/bedrijfsleiderstool)**
+**[securex.be/nl/accountants/bedrijfsleiderstool](https://www.securex.be/nl/accountants/bedrijfsleiderstool)**
