@@ -316,6 +316,21 @@ article {
     padding-left: 20px;
     margin: 20px 0;
   }
+
+  .page-lede {
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  .page-closing {
+    border-top: 3px solid var(--accent-green);
+    padding-top: 30px;
+    margin-top: 40px;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
 // Footer
