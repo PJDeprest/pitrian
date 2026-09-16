@@ -1,10 +1,8 @@
 ---
 title: "Contact"
-description: "Neem contact op via email: contact at pitrian punt be. Momenteel niet beschikbaar voor nieuwe projecten."
+description: "Neem contact op via email: contact at pitrian punt be."
 ---
 
 Via email: contact at pitrian punt be
 
 Niet op LinkedIn of andere socials.
-
-Momenteel niet beschikbaar voor nieuwe projecten.
