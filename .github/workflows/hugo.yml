@@ -6,8 +6,10 @@ on:
       - main
   workflow_dispatch:
 
+# Least privilege: the build only reads the repo; publishing happens through
+# the Pages deployment API, which needs pages:write + id-token:write.
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -23,45 +25,55 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.121.1
+      HUGO_VERSION: 0.166.0
+      HUGO_SHA256: 0e39b901e3f919f1daae05c8ff64f0c14c8a348ef46886d63f8e6d1bb2653885
+      # Dart Sass: the supported Sass implementation. LibSass, which Hugo
+      # otherwise falls back to, has been deprecated by the Sass team since 2020.
+      DART_SASS_VERSION: 1.104.1
+      DART_SASS_SHA256: 85f31863aa62a1ba93158105609b94206fe9e17a37ad2855a69c543f83d1abae
     steps:
       - name: Install Hugo CLI
         run: |
-          wget -O ${{ runner.temp }}/hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz \
-          && tar -xzf ${{ runner.temp }}/hugo.tar.gz -C ${{ runner.temp }} \
-          && sudo mv ${{ runner.temp }}/hugo /usr/local/bin/
-      
+          set -euo pipefail
+          curl -sSL -o "${{ runner.temp }}/hugo.tar.gz" \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+          echo "${HUGO_SHA256}  ${{ runner.temp }}/hugo.tar.gz" | sha256sum --check --strict -
+          tar -xzf "${{ runner.temp }}/hugo.tar.gz" -C "${{ runner.temp }}" hugo
+          sudo install -m 0755 "${{ runner.temp }}/hugo" /usr/local/bin/hugo
+
+      - name: Install Dart Sass
+        run: |
+          set -euo pipefail
+          curl -sSL -o "${{ runner.temp }}/dart-sass.tar.gz" \
+            "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+          echo "${DART_SASS_SHA256}  ${{ runner.temp }}/dart-sass.tar.gz" | sha256sum --check --strict -
+          tar -xzf "${{ runner.temp }}/dart-sass.tar.gz" -C "${{ runner.temp }}"
+          echo "${{ runner.temp }}/dart-sass" >> "$GITHUB_PATH"
+
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          submodules: recursive
           fetch-depth: 0
-      
+
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
         with:
           enablement: true
-      
+
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
+          TZ: Europe/Brussels
         run: |
           hugo \
             --gc \
             --minify \
-            --verbose
-
-      - name: List build output
-        run: |
-          echo "Contents of public directory:"
-          ls -la public/
-          echo "First level files:"
-          find public -maxdepth 2 -type f
+            --logLevel info
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
           path: ./public
 
@@ -74,4 +86,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
