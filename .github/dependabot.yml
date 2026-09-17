@@ -1,0 +1,12 @@
+version: 2
+updates:
+  # Keeps the SHA-pinned GitHub Actions in .github/workflows current.
+  # Note: Hugo and Dart Sass are pinned as env vars in the workflow and are
+  # NOT covered here — bump HUGO_VERSION/DART_SASS_VERSION and their
+  # matching SHA256 by hand.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: ci
